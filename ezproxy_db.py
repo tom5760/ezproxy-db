@@ -1,6 +1,7 @@
 import sys
 import os.path
 
+from google.appengine.api import mail
 from google.appengine.api import users
 from google.appengine.ext import db
 from google.appengine.ext import webapp
@@ -45,6 +46,9 @@ class AddProxy(webapp.RequestHandler):
             approved=users.is_current_user_admin(),
         )
         proxy.put()
+
+        mail.send_mail_to_admins(user.email(), 'EZProxy DB Moderation Request',
+            'There are new EZProxy URLs in the moderation queue.')
 
         template_values = {
             'is_admin': proxy.approved,
