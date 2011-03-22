@@ -57,13 +57,13 @@
                 </tr>
                 {% for proxy in proxies %}
                 <tr>
-                    <td>{{ proxy.name }}</td>
-                    <td>{{ proxy.url }}</td>
+                    <td>{{ proxy.name|escape }}</td>
+                    <td>{{ proxy.url|escape }}</td>
                     {% if is_admin %}
                     <td>
                         <form action="/editproxy" method="post">
                             <input type="submit" name="action" value="Remove"/>
-                            <input type="hidden" name="id" value="{{ proxy.key }}"/>
+                            <input type="hidden" name="id" value="{{ proxy.key|escape }}"/>
                         </form>
                     </td>
                     {% endif %}
@@ -81,13 +81,13 @@
                 </tr>
                 {% for proxy in moderated_proxies %}
                 <tr>
-                    <td>{{ proxy.name }}</td>
-                    <td>{{ proxy.url }}</td>
+                    <td>{{ proxy.name|escape }}</td>
+                    <td>{{ proxy.url|escape }}</td>
                     <td>
                         <form action="/editproxy" method="post">
                             <input type="submit" name="action" value="Add"/>
                             <input type="submit" name="action" value="Delete"/>
-                            <input type="hidden" name="id" value="{{ proxy.key }}"/>
+                            <input type="hidden" name="id" value="{{ proxy.key|escape }}"/>
                         </form>
                     </td>
                 </tr>
