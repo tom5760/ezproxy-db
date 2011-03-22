@@ -77,7 +77,7 @@ class EditProxy(webapp.RequestHandler):
 
         self.redirect('/')
 
-def main(argv):
+def main():
     app = webapp.WSGIApplication([
             ('/', MainPage),
             ('/addproxy', AddProxy),
@@ -86,4 +86,4 @@ def main(argv):
     run_wsgi_app(app)
 
 if __name__ == '__main__':
-    sys.exit(main(sys.argv))
+    main()
