@@ -96,7 +96,7 @@ def main():
             ('/', MainPage),
             ('/addproxy', AddProxy),
             ('/editproxy', EditProxy),
-            ('/urls.json', ProxyJson),
+            ('/proxies.json', ProxyJson),
         ], debug=True)
     run_wsgi_app(app)
 
