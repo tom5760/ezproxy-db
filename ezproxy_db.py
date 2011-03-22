@@ -51,13 +51,10 @@ class AddProxy(webapp.RequestHandler):
             mail.send_mail_to_admins(user.email(),
                     'EZProxy DB Moderation Request',
                     'There are new EZProxy URLs in the moderation queue.')
-
-        template_values = {
-            'is_admin': proxy.approved,
-        }
-
-        path = os.path.join(os.path.dirname(__file__), 'addproxy.html')
-        self.response.out.write(template.render(path, template_values))
+            path = os.path.join(os.path.dirname(__file__), 'addproxy.html')
+            self.response.out.write(template.render(path, {}))
+        else:
+            self.redirect('/')
 
 class EditProxy(webapp.RequestHandler):
     def post(self):
