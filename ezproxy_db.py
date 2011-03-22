@@ -1,6 +1,5 @@
 import sys
 import os.path
-import json
 
 from google.appengine.api import mail
 from google.appengine.api import users
@@ -83,15 +82,12 @@ class EditProxy(webapp.RequestHandler):
 
 class ProxyJson(webapp.RequestHandler):
     def get(self):
-        proxies = {'proxies': []}
-        for proxy in Proxy.all().filter('approved =', True).order('name'):
-            proxies['proxies'].append({
-                'name': proxy.name,
-                'url': proxy.url,
-            })
-
         self.response.headers['Content-Type'] = 'application/json'
-        json.dump(proxies, self.response.out)
+
+        proxies = ','.join(['{"name": "%s", "url": "%s"}' % (p.name, p.url)
+            for p in Proxy.all().filter('approved =', True).order('name')])
+
+        self.response.out.write('{"proxies": [%s]}' % proxies)
 
 def main():
     app = webapp.WSGIApplication([
