@@ -18,8 +18,7 @@ class MainPage(webapp.RequestHandler):
         user = users.get_current_user()
 
         template_values = {
-            'proxies': db.GqlQuery(
-                'SELECT * FROM Proxy WHERE approved = true ORDER BY name'),
+            'proxies': Proxy.all().filter('approved =', True).order('name'),
             'login_url': users.create_login_url('/'),
             'logout_url': users.create_logout_url('/'),
             'is_logged_in': user is not None,
@@ -27,8 +26,8 @@ class MainPage(webapp.RequestHandler):
         }
 
         if users.is_current_user_admin():
-            template_values['moderated_proxies'] = db.GqlQuery(
-                    'SELECT * FROM Proxy WHERE approved = false ORDER BY name')
+            template_values['moderated_proxies'] = (Proxy.all()
+                    .filter('approved =', False).order('name'))
 
         path = os.path.join(os.path.dirname(__file__), 'index.html')
         self.response.out.write(template.render(path, template_values))
