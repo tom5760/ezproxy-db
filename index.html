@@ -16,6 +16,12 @@
             <p>Below is the current list of EZProxy URLs in the database.  If
             you use my <a href="http://chrome.google.com/webstore/detail/gfhnhcbpnnnlefhobdnmhenofhfnnfhi">EZProxy Chrome Extension</a>,
             the extension's URL list will update with the one on this page.</p>
+
+            <p>You can check out the <a href="http://github.com/tom5760/ezproxy-db">
+                code for this webapp</a> and the <a href="http://github.com/tom5760/chrome-ezproxy">
+                code for the Chrome extension</a> on <a href="http://github.com/tom5760">GitHub</a>
+            </p>
+
             {% if is_logged_in %}
             <p><a href="{{ logout_url }}">Log out</a></p>
             {% else %}
@@ -91,7 +97,7 @@
         </div>
 
         <footer>
-            <p>Copyright &copy; 2011 Tom Wambold</p>
+            <p>Copyright &copy; 2011 Tom Wambold; <a href="http://github.com/tom5760/ezproxy-db">Code on GitHub</a></p>
         </footer>
     </body>
 </html>
