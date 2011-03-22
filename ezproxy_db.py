@@ -48,7 +48,7 @@ class AddProxy(webapp.RequestHandler):
         proxy.put()
 
         if not proxy.approved:
-            mail.send_mail_to_admins(user.email(),
+            mail.send_mail_to_admins('no-reply@ezproxy-db.appspotmail.com',
                     'EZProxy DB Moderation Request',
                     'There are new EZProxy URLs in the moderation queue.')
             path = os.path.join(os.path.dirname(__file__), 'addproxy.html')
