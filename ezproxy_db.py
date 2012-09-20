@@ -48,22 +48,45 @@ class AddHandler(BaseHandler):
         if user is None:
             self.redirect('/')
 
-        proxy = Proxy(
-            name=self.request.get('name'),
-            url=self.request.get('url'),
-            approved=users.is_current_user_admin(),
-        )
-        proxy.put()
+        name = self.request.get('name')
+        url = self.request.get('url')
 
-        if not proxy.approved:
-            message = 'New EZProxy URL: <a href="{1}">{0} - {1}</a>'.format(
-                    proxy.name, proxy.url)
-            mail.send_mail_to_admins('no-reply@ezproxy-db.appspotmail.com',
-                    'EZProxy DB Moderation Request', message)
+        dup_name = Proxy.all().filter('name =', name)
+        dup_url = Proxy.all().filter('url =', url)
 
-            self.render_response('addproxy.html', {})
-        else:
-            self.redirect('/')
+        error = False
+        context = {
+            'msg': 'Thanks for your addition!  Your URL will be checked by an administrator soon.',
+        }
+
+        if dup_name.count() > 0:
+            error = True
+            context['msg'] = 'A proxy with that name already exists in the database, please try again.'
+
+        if dup_url.count() > 0:
+            if error:
+                context['msg'] = 'A proxy with that name and url already exists in the database, please try again.'
+            else:
+                error = True
+                context['msg'] = 'A proxy with that url already exists in the database, please try again.'
+
+        if not error:
+            proxy = Proxy(
+                name=self.request.get('name'),
+                url=self.request.get('url'),
+                approved=users.is_current_user_admin(),
+            )
+            proxy.put()
+
+            if not proxy.approved:
+                message = 'New EZProxy URL: <a href="{1}">{0} - {1}</a>'.format(
+                        proxy.name, proxy.url)
+                mail.send_mail_to_admins('no-reply@ezproxy-db.appspotmail.com',
+                        'EZProxy DB Moderation Request', message)
+            else:
+                self.redirect('/')
+
+        self.render_response('addproxy.html', context)
 
 class EditHandler(BaseHandler):
     def post(self):
