@@ -1,11 +1,18 @@
 application: ezproxy-db-hrd
-version: 1
-runtime: python
+version: 2
+runtime: python27
 api_version: 1
+threadsafe: true
+
+libraries:
+- name: webapp2
+  version: '2.5.1'
+- name: jinja2
+  version: '2.6'
 
 handlers:
 - url: /favicon.ico
   static_files: favicon.ico
   upload: favicon.ico
 - url: /.*
-  script: ezproxy_db.py
+  script: ezproxy_db.app

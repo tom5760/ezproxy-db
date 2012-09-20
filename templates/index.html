@@ -1,0 +1,73 @@
+{% extends "main.html" %}
+{% block body %}
+<div>
+    <p>Below is the current list of EZProxy URLs in the database.  If you use my <a href="http://chrome.google.com/webstore/detail/gfhnhcbpnnnlefhobdnmhenofhfnnfhi">EZProxy Chrome Extension</a>, the extension's URL list will update with the one on this page.</p>
+    <p>You can also access this data in <a href="/proxies.json">JSON format</a>.</p>
+    <p>You can check out the <a href="http://github.com/tom5760/ezproxy-db">code for this webapp</a> and the <a href="http://github.com/tom5760/chrome-ezproxy">code for the Chrome extension</a> on <a href="http://github.com/tom5760">GitHub</a></p>
+
+    {% if is_logged_in %}
+    <p><a href="{{ logout_url }}">Log out</a></p>
+    {% else %}
+    <p>Please <a href="{{ login_url }}">Log in</a> to add/edit URLs.</p>
+    <p>Note: This is done using Google's infrastructure, I do not have access to your password.  Technically I could see your email address, but I will not, and won't store it at all.  I'm simply using the log-in mechanism to prevent spam.</p>
+    {% endif %}
+
+    {% if is_logged_in %}
+    <h2>Add Proxy</h2>
+    <p>To add or edit a proxy, simply use the following form.  A moderator will check it and update the list.</p>
+    <p>Note: The string "$@" (without quotes) will be replaced with the URL to redirect to.  See the URLs already in the database for examples</p>
+    <form action="/addproxy" method="post">
+        <p>School Name: <input type="text" name="name" placeholder="Name" required/> EZProxy URL: <input type="url" name="url" placeholder="http://" required/><input type="submit" value="Add"/></p>
+    </form>
+    {% endif %}
+
+    <h2>Current Proxies</h2>
+    <table border=1>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+            {% if is_admin %}
+            <th>Actions</th>
+            {% endif %}
+        </tr>
+        {% for proxy in proxies %}
+        <tr>
+            <td>{{ proxy.name|escape }}</td>
+            <td>{{ proxy.url|escape }}</td>
+            {% if is_admin %}
+            <td>
+                <form action="/editproxy" method="post">
+                    <input type="submit" name="action" value="Remove"/>
+                    <input type="hidden" name="id" value="{{ proxy.key()|escape }}"/>
+                </form>
+            </td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </table>
+
+    {% if is_admin %}
+    <h2>Moderated Proxies</h2>
+    <table border=1>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+            <th>Actions</th>
+        </tr>
+        {% for proxy in moderated_proxies %}
+        <tr>
+            <td>{{ proxy.name|escape }}</td>
+            <td>{{ proxy.url|escape }}</td>
+            <td>
+                <form action="/editproxy" method="post">
+                    <input type="submit" name="action" value="Add"/>
+                    <input type="submit" name="action" value="Delete"/>
+                    <input type="hidden" name="id" value="{{ proxy.key()|escape }}"/>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</div>
+{% endblock %}

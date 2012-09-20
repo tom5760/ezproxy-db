@@ -1,24 +1,33 @@
 import sys
+import json
 import os.path
 
 from google.appengine.api import mail
 from google.appengine.api import users
 from google.appengine.ext import db
-from google.appengine.ext import webapp
 from google.appengine.ext.db import BadKeyError
-from google.appengine.ext.webapp import template
-from google.appengine.ext.webapp.util import run_wsgi_app
+
+import webapp2
+from webapp2_extras import jinja2
 
 class Proxy(db.Model):
     name = db.StringProperty(required=True)
     url = db.LinkProperty(required=True)
     approved = db.BooleanProperty(default=False, required=True)
 
-class MainPage(webapp.RequestHandler):
+class BaseHandler(webapp2.RequestHandler):
+    @webapp2.cached_property
+    def jinja2(self):
+        return jinja2.get_jinja2(app=self.app)
+
+    def render_response(self, template, context):
+        self.response.write(self.jinja2.render_template(template, **context))
+
+class MainHandler(BaseHandler):
     def get(self):
         user = users.get_current_user()
 
-        template_values = {
+        context = {
             'proxies': Proxy.all().filter('approved =', True).order('name'),
             'login_url': users.create_login_url('/'),
             'logout_url': users.create_logout_url('/'),
@@ -27,13 +36,12 @@ class MainPage(webapp.RequestHandler):
         }
 
         if users.is_current_user_admin():
-            template_values['moderated_proxies'] = (Proxy.all()
-                    .filter('approved =', False).order('name'))
+            context['moderated_proxies'] = (
+                    Proxy.all().filter('approved =', False).order('name'))
 
-        path = os.path.join(os.path.dirname(__file__), 'index.html')
-        self.response.out.write(template.render(path, template_values))
+        self.render_response('index.html', context)
 
-class AddProxy(webapp.RequestHandler):
+class AddHandler(BaseHandler):
     def post(self):
         user = users.get_current_user()
 
@@ -48,15 +56,16 @@ class AddProxy(webapp.RequestHandler):
         proxy.put()
 
         if not proxy.approved:
+            message = 'New EZProxy URL: <a href="{1}">{0} - {1}</a>'.format(
+                    proxy.name, proxy.url)
             mail.send_mail_to_admins('no-reply@ezproxy-db.appspotmail.com',
-                    'EZProxy DB Moderation Request',
-                    'There are new EZProxy URLs in the moderation queue.')
-            path = os.path.join(os.path.dirname(__file__), 'addproxy.html')
-            self.response.out.write(template.render(path, {}))
+                    'EZProxy DB Moderation Request', message)
+
+            self.render_response('addproxy.html', {})
         else:
             self.redirect('/')
 
-class EditProxy(webapp.RequestHandler):
+class EditHandler(BaseHandler):
     def post(self):
         if not users.is_current_user_admin():
             self.redirect('/')
@@ -79,23 +88,18 @@ class EditProxy(webapp.RequestHandler):
 
         self.redirect('/')
 
-class ProxyJson(webapp.RequestHandler):
+class JSONHandler(BaseHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'application/json'
 
-        proxies = ','.join(['{"name": "%s", "url": "%s"}' % (p.name, p.url)
-            for p in Proxy.all().filter('approved =', True).order('name')])
+        proxies = [{'name': p.name, 'url': p.url}
+                for p in Proxy.all().filter('approved =', True).order('name')]
 
-        self.response.out.write('{"proxies": [%s]}' % proxies)
+        json.dump(proxies, self.response, separators=(',', ':'))
 
-def main():
-    app = webapp.WSGIApplication([
-            ('/', MainPage),
-            ('/addproxy', AddProxy),
-            ('/editproxy', EditProxy),
-            ('/proxies.json', ProxyJson),
-        ], debug=True)
-    run_wsgi_app(app)
-
-if __name__ == '__main__':
-    main()
+app = webapp2.WSGIApplication([
+        webapp2.Route('/', 'ezproxy_db.MainHandler', 'main'),
+        webapp2.Route('/addproxy', 'ezproxy_db.AddHandler', 'add'),
+        webapp2.Route('/editproxy', 'ezproxy_db.EditHandler', 'edit'),
+        webapp2.Route('/proxies.json', 'ezproxy_db.JSONHandler', 'json'),
+    ], debug=True)
