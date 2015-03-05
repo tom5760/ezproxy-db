@@ -35,9 +35,8 @@ class MainHandler(BaseHandler):
             'is_admin': users.is_current_user_admin(),
         }
 
-        if users.is_current_user_admin():
-            context['moderated_proxies'] = (
-                    Proxy.all().filter('approved =', False).order('name'))
+        context['moderated_proxies'] = (
+                Proxy.all().filter('approved =', False).order('name'))
 
         self.render_response('index.html', context)
 
@@ -58,6 +57,10 @@ class AddHandler(BaseHandler):
         context = {
             'msg': 'Thanks for your addition!  Your URL will be checked by an administrator soon.',
         }
+
+        if url.find('$@') == -1:
+            error = True
+            context['msg'] = 'Your URL does not include the token "$@".  Please see the other URLs in the database for examples.'
 
         if dup_name.count() > 0:
             error = True
