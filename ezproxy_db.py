@@ -1,9 +1,7 @@
-import sys
 import json
-import os.path
+import logging
 
-from google.appengine.api import mail
-from google.appengine.api import users
+from google.appengine.api import mail, memcache, users
 from google.appengine.ext import db
 from google.appengine.ext.db import BadKeyError
 
@@ -26,17 +24,33 @@ class BaseHandler(webapp2.RequestHandler):
 class MainHandler(BaseHandler):
     def get(self):
         user = users.get_current_user()
-
         context = {
-            'proxies': Proxy.all().filter('approved =', True).order('name'),
             'login_url': users.create_login_url('/'),
             'logout_url': users.create_logout_url('/'),
             'is_logged_in': user is not None,
             'is_admin': users.is_current_user_admin(),
         }
 
-        context['moderated_proxies'] = (
-                Proxy.all().filter('approved =', False).order('name'))
+        result = memcache.get_multi(['proxies', 'moderated_proxies'])
+
+        if 'proxies' in result:
+            logging.info('proxies cache hit')
+            context['proxies'] = result['proxies']
+        else:
+            logging.info('proxies cache miss')
+            context['proxies'] = Proxy.all().filter('approved =', True).order('name')
+
+        if 'moderated_proxies' in result:
+            logging.info('moderated proxies cache hit')
+            context['moderated_proxies'] = result['moderated_proxies']
+        else:
+            logging.info('moderated proxies cache miss')
+            context['moderated_proxies'] = Proxy.all().filter('approved =', False).order('name')
+
+        memcache.add_multi({
+            'proxies': context['proxies'],
+            'moderated_proxies': context['moderated_proxies'],
+        })
 
         self.render_response('index.html', context)
 
@@ -82,12 +96,14 @@ class AddHandler(BaseHandler):
             proxy.put()
 
             if not proxy.approved:
-                message = 'New EZProxy URL: <a href="{1}">{0} - {1}</a>'.format(
+                memcache.delete('moderated_proxies')
+                message = 'New EZProxy URL: {0}: {1}\n\nhttp://ezproxy-db.appspot.com'.format(
                         proxy.name, proxy.url)
                 mail.send_mail_to_admins('no-reply@ezproxy-db.appspotmail.com',
                         'EZProxy DB Moderation Request', message)
             else:
-                self.redirect('/')
+                memcache.delete('proxies')
+                return self.redirect('/')
 
         self.render_response('addproxy.html', context)
 
@@ -112,16 +128,20 @@ class EditHandler(BaseHandler):
             proxy.approved = False
             proxy.put()
 
+        memcache.delete_multi(['proxies', 'moderated_proxies'])
         self.redirect('/')
 
 class JSONHandler(BaseHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'application/json'
 
-        proxies = [{'name': p.name, 'url': p.url}
-                for p in Proxy.all().filter('approved =', True).order('name')]
+        proxies = memcache.get('proxies')
+        if proxies is None:
+            proxies = Proxy.all().filter('approved =', True).order('name')
+            memcache.set('proxies', proxies)
 
-        json.dump(proxies, self.response, separators=(',', ':'))
+        data = [{'name': p.name, 'url': p.url} for p in proxies]
+        json.dump(data, self.response, separators=(',', ':'))
 
 app = webapp2.WSGIApplication([
         webapp2.Route('/', 'ezproxy_db.MainHandler', 'main'),
