@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A database for library proxy URLs used by colleges, universities, and other institutions.">
+
+    <title>Library Proxy URL Database</title>
+
+    {{ partial "icon.html" "favicon.svg" }}
+
+    {{ partial "css.html" "css/simple.css" }}
+    {{ partial "css.html" "css/style.css" }}
+  </head>
+
+  <body>
+    <header>
+      <h1>Library Proxy URL Database</h1>
+
+      {{ .Summary }}
+    </header>
+
+    {{ block "body" . }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ end }}
+
+    <footer>
+      <p>
+        {{ if .GitInfo }}
+        Generated from commit <a href="https://github.com/tom5760/ezproxy-db/commit/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>,
+        committed on {{ .GitInfo.AuthorDate | time.Format ":date_long" }}.
+        {{ end }}
+        Generated with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        Style from <a href="https://simplecss.org/" target="_blank" rel="noopener">Simple.css</a>.
+        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Library Proxy URL Database</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" width="88" height="31"></a></p>
+    </footer>
+  </body>
+</html>

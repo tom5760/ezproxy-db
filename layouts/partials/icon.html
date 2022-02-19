@@ -1,0 +1,6 @@
+{{- $style := resources.Get . | resources.Fingerprint -}}
+
+<link rel="icon"
+      href="{{ $style.RelPermalink }}"
+      integrity="{{ $style.Data.Integrity }}">
+

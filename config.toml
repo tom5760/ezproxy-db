@@ -1,0 +1,8 @@
+baseURL      = 'https://libproxy-db.org/'
+languageCode = 'en-us'
+title        = 'EZProxy URL Database'
+
+enableGitInfo  = true
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]

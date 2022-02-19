@@ -1,2 +1,3 @@
-.*.swp
-*.pyc
+/public/
+/resources/
+/.hugo_build.lock

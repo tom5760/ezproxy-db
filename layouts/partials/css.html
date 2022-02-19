@@ -1,0 +1,5 @@
+{{- $style := resources.Get . | resources.Fingerprint -}}
+
+<link rel="stylesheet"
+      href="{{ $style.RelPermalink }}"
+      integrity="{{ $style.Data.Integrity }}">
