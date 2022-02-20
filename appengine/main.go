@@ -11,6 +11,10 @@ import (
 const (
 	serverHost = "libproxy-db.org"
 	proxyURL   = "https://libproxy-db.org/proxies.json"
+
+	headerAccessControlAllowOrigin = "Access-Control-Allow-Origin"
+
+	accessControlAllowOriginAll = "*"
 )
 
 func main() {
@@ -52,6 +56,13 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func proxyHandler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set(headerAccessControlAllowOrigin, accessControlAllowOriginAll)
+
+	if r.Method == http.MethodHead {
+		w.WriteHeader(http.StatusOK)
+		return
+	}
+
 	pr, err := http.NewRequestWithContext(r.Context(), http.MethodGet, proxyURL, nil)
 	if err != nil {
 		log.Printf("failed to create request: %v", err)
