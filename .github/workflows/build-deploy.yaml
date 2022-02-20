@@ -1,0 +1,74 @@
+name: build-deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-20.04
+    environment:
+      name: prod
+      url: https://libproxy-db.org/
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+        with:
+          # Need fetch-depth 0, otherwise a shallow-clone will occur, and we
+          # won't have history to use with scripts/version.sh.
+          fetch-depth: 0
+
+      - name: Install Hugo
+        run: |
+          curl \
+            --silent \
+            --location \
+            https://github.com/gohugoio/hugo/releases/download/v0.92.2/hugo_extended_0.92.2_Linux-64bit.tar.gz \
+            | tar \
+              --extract \
+              --gunzip \
+              --directory=/usr/local/bin \
+              hugo
+
+      - name: Build site
+        run: hugo
+
+      - name: Upload coverage reports
+        uses: actions/upload-artifact@v2.3.1
+        with:
+          name: libproxy-db
+          path: public
+          if-no-files-found: error
+
+      - name: Set up SSH key
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
+
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Tailscale
+        uses: tailscale/github-action@v1
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+
+      - name: Deploy site
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          rsync \
+            --recursive \
+            --verbose \
+            --rsh="ssh -l deploy-libproxy -i libproxy-db.org_deploy" \
+            --copy-links \
+            --delete \
+            public/ \
+            100.77.83.94:/srv/http/libproxy-db.org/
