@@ -28,9 +28,11 @@
 
     <footer>
       <p>
-        {{ if .GitInfo }}
-        Generated from commit <a href="https://github.com/tom5760/ezproxy-db/commit/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>,
-        committed on {{ .GitInfo.AuthorDate | time.Format ":date_long" }}.
+        {{ with .Site.Data.buildinfo }}
+        Generated from commit <a href="https://github.com/tom5760/ezproxy-db/commit/{{ .ref }}" target="_blank" rel="noopener">{{ .shortref }}</a>,
+        committed {{ .commitstamp | time.Format ":date_long" }}.
+        Built from run <a href="{{ .action_url }}" target="_blank" rel="noopener">{{ .action_id }}</a>
+        on {{ .buildstamp | time.Format ":date_long" }}.
         {{ end }}
         Generated with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
         Style from <a href="https://simplecss.org/" target="_blank" rel="noopener">Simple.css</a>.

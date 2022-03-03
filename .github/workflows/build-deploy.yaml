@@ -33,7 +33,9 @@ jobs:
               hugo
 
       - name: Build site
-        run: hugo
+        run: |
+          ./buildinfo.sh > data/buildinfo.json
+          hugo
 
       - name: Upload coverage reports
         uses: actions/upload-artifact@v2.3.1
