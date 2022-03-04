@@ -37,7 +37,7 @@ jobs:
           ./buildinfo.sh > data/buildinfo.json
           hugo
 
-      - name: Upload coverage reports
+      - name: Upload site artifact
         uses: actions/upload-artifact@v3
         with:
           name: libproxy-db
