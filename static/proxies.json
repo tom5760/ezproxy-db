@@ -5805,7 +5805,7 @@
   },
   {
     "name": "Woodbury University",
-    "url": "http://ezproxy.woodbury.edu:880/login?url=$@"
+    "url": "https://ezproxy.woodbury.edu:2443/login?url=$@"
   },
   {
     "name": "Worcester Polytechnic Institute",
