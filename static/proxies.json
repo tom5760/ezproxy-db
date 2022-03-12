@@ -5796,10 +5796,6 @@
     "url": "http://library.wmpenn.edu:2048/login?url=$@"
   },
   {
-    "name": "Williams",
-    "url": "http://ezproxy.williams.edu:2048/login?url=$@"
-  },
-  {
     "name": "Williams College",
     "url": "https://ezproxy2.williams.edu/login?url=$@"
   },
