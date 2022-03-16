@@ -3956,6 +3956,10 @@
     "url": "http://manchester.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "The Wikipedia Library",
+    "url": "https://wikipedialibrary.idm.oclc.org/login?auth=production&url=$@"
+  },
+  {
     "name": "Thomas More",
     "url": "http://library.thomasmore.edu:2048/login?url=$@"
   },
