@@ -3401,7 +3401,7 @@
   },
   {
     "name": "SUNY University at Albany",
-    "url": "https://login.libproxy.albany.edu/login?qurl=$@"
+    "url": "https://libproxy.albany.edu/login?url=$@"
   },
   {
     "name": "SUNY at Geneseo",
