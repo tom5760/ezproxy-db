@@ -4220,6 +4220,10 @@
     "url": "http://recursos.biblioteca.upc.edu/login?url=$@"
   },
   {
+    "name": "Universitatea Tehnică Gheorghe Asachi din Iași",
+    "url": "http://am.e-nformation.ro/login?url=$@"
+  },
+  {
     "name": "Universite Lille 2",
     "url": "http://doc-distant.univ-lille2.fr/login?url=$@"
   },
