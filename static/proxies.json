@@ -2688,6 +2688,10 @@
     "url": "http://ezproxy.lib.ym.edu.tw/login?url=$@"
   },
   {
+    "name": "National Yang Ming Chiao Tung Univeristy",
+    "url": "https://ezproxy.lib.nctu.edu.tw/login?url=$@"
+  },
+  {
     "name": "Naval Postgraduate School",
     "url": "http://libproxy.nps.edu/login?url=$@"
   },
