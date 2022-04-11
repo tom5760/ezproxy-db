@@ -1704,6 +1704,10 @@
     "url": "https://login.galanga.hvl.no/login?url=$@"
   },
   {
+    "name": "Idaho College of Osteopathic Medicine",
+    "url": "https://icom.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "IIT Chicago-Kent College of Law",
     "url": "http://libproxy.kentlaw.edu/login?url=$@"
   },
