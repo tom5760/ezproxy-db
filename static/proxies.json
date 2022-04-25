@@ -4220,10 +4220,6 @@
     "url": "http://recursos.biblioteca.upc.edu/login?url=$@"
   },
   {
-    "name": "Universite Grenoble Alpes",
-    "url": "http://gaelnomade.ujf-grenoble.fr/login?url=$@"
-  },
-  {
     "name": "Universite Lille 2",
     "url": "http://doc-distant.univ-lille2.fr/login?url=$@"
   },
@@ -4578,10 +4574,6 @@
   {
     "name": "University of Great Falls",
     "url": "http://ezproxy.ugf.edu:2048/login?url=$@"
-  },
-  {
-    "name": "University of Grenoble Alpes",
-    "url": "https://sid2nomade-1.grenet.fr/login?url=$@"
   },
   {
     "name": "University of Groningen",
