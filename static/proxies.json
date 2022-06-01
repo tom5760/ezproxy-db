@@ -2580,6 +2580,10 @@
     "url": "http://muhlenberg.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "Munich University of Applied Sciences",
+    "url": "https://ezproxy.bib.hm.edu/login?url=%@" 
+  },
+  {
     "name": "Murray State University",
     "url": "https://ezproxy.waterfield.murraystate.edu/login?url=$@"
   },
