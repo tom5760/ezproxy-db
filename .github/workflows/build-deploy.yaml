@@ -14,18 +14,20 @@ jobs:
       url: https://libproxy-db.org/
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.0.2
         with:
           # Need fetch-depth 0, otherwise a shallow-clone will occur, and we
-          # won't have history to use with scripts/version.sh.
+          # won't have history to use with buildinfo.sh.
           fetch-depth: 0
 
       - name: Install Hugo
+        env:
+          HUGO_VERSION: 0.101.0
         run: |
           curl \
             --silent \
             --location \
-            https://github.com/gohugoio/hugo/releases/download/v0.98.0/hugo_extended_0.98.0_Linux-64bit.tar.gz \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz \
             | tar \
               --extract \
               --gunzip \
@@ -38,7 +40,7 @@ jobs:
           hugo
 
       - name: Upload site artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.0
         with:
           name: libproxy-db
           path: public
