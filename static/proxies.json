@@ -1140,12 +1140,8 @@
     "url": "http://ezproxy.drew.edu/login?url=$@"
   },
   {
-    "name": "Drexel",
-    "url": "http://ezproxy2.library.drexel.edu/login?url=$@"
-  },
-  {
     "name": "Drexel University",
-    "url": "http://www.library.drexel.edu/cgi-bin/r.cgi?url=$@"
+    "url": "https://ezproxy2.library.drexel.edu/login?url=$@"
   },
   {
     "name": "Dublin City University",
