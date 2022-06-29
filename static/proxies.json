@@ -72,6 +72,10 @@
     "url": "http://elibrary.einstein.yu.edu/login?url=$@"
   },
   {
+    "name": "Alberta Health Services",
+    "url": "https://ahs.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "Albright",
     "url": "https://felix.albright.edu/login?url=$@"
   },
