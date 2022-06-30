@@ -2648,6 +2648,10 @@
     "url": "http://ncnm.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "National Endowment for Democracy",
+    "url": "https://login.ned.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "National Institute of Standards & Technology",
     "url": "https://nist.idm.oclc.org/login?url=$@"
   },
