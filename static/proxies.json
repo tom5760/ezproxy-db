@@ -4584,6 +4584,10 @@
     "url": "http://ezproxy.ug.edu.gh:2100/login?url=$@"
   },
   {
+    "name": "University of Glasgow",
+    "url": "https://ezproxy.lib.gla.ac.uk/login?url=$@"
+  },
+  {
     "name": "University of Gothenburg",
     "url": "http://ezproxy.ub.gu.se/login?url=$@"
   },
