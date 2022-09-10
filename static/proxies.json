@@ -2592,6 +2592,10 @@
     "url": "https://ezproxy.waterfield.murraystate.edu/login?url=$@"
   },
   {
+    "name": "Mälardalens universitet",
+    "url": "https://ep.bib.mdh.se/login?url=$@"
+  },
+  {
     "name": "Médiathèques FM6",
     "url": "http://proxy.mediatheque-fm6.ma/login?url=$@"
   },
