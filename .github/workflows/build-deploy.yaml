@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build and Deploy
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     environment:
       name: prod
       url: https://libproxy-db.org/
@@ -22,7 +22,7 @@ jobs:
 
       - name: Install Hugo
         env:
-          HUGO_VERSION: 0.101.0
+          HUGO_VERSION: 0.102.3
         run: |
           curl \
             --silent \
@@ -46,13 +46,8 @@ jobs:
           path: public
           if-no-files-found: error
 
-      - name: Set up SSH key
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+      - name: Set up SSH
         run: |
-          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
-
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
 
