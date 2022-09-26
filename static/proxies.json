@@ -2304,6 +2304,10 @@
     "url": "http://ezproxy.maheclibrary.org/login?url=$@"
   },
   {
+    "name": "Mahidol University",
+    "url": "https://ejournal.mahidol.ac.th/login?url=$@"
+  },
+  {
     "name": "Maine's Virtual Library",
     "url": "http://libraries.maine.edu/mainedatabases/authmaine.asp?url=$@"
   },
