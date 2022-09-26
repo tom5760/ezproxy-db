@@ -4604,6 +4604,10 @@
     "url": "https://login.proxy-ub.rug.nl/login?url=$@"
   },
   {
+    "name": "Universidad de Guadalajara",
+    "url": "https://wdg-biblio-udg-mx.wdg.biblio.udg.mx:8443/login?url=$@"
+  },
+  {
     "name": "University of Guelph",
     "url": "http://subzero.lib.uoguelph.ca/login?url=$@"
   },
