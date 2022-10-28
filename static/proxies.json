@@ -96,6 +96,10 @@
     "url": "http://proxyau.wrlc.org/login?url=$@"
   },
   {
+    "name": "The American College of Greece",
+    "url": "https://acg.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "American Institutes for Research",
     "url": "https://air.idm.oclc.org/login?url=$@"
   },
