@@ -5512,6 +5512,10 @@
     "url": "https://scd-rproxy.u-strasbg.fr/login?url=$@"
   },
   {
+    "name": "Université Paris Cité",
+    "url": "https://ezproxy.u-paris.fr/login?url=$@"
+  },
+  {
     "name": "Univerza v Ljubljani",
     "url": "http://cmk-proxy.mf.uni-lj.si:2048/login?url=$@"
   },
