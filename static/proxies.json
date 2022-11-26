@@ -1725,7 +1725,7 @@
   },
   {
     "name": "INSERM",
-    "url": "http://gate2.inist.fr/login?url=$@"
+    "url": "https://proxy.insermbiblio.inist.fr/login?url=$@"
   },
   {
     "name": "IT University of Copenhagen",
@@ -1778,10 +1778,6 @@
   {
     "name": "Indiana University of Pennsylvania",
     "url": "http://proxy-iup.klnpa.org/login?url=$@"
-  },
-  {
-    "name": "INSERM",
-    "url": "https://proxy.insermbiblio.inist.fr/login?url=$@"
   },
   {
     "name": "Institut National Polytechnique - Toulouse",
@@ -5514,6 +5510,10 @@
   {
     "name": "Université de Strasbourg",
     "url": "https://scd-rproxy.u-strasbg.fr/login?url=$@"
+  },
+  {
+    "name": "Université Gustave Eiffel (GHU-Paris)",
+    "url": "https://univ-eiffel.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Université Paris Cité",
