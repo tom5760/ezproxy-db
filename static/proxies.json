@@ -2808,6 +2808,10 @@
     "url": "http://roxy.nipissingu.ca/login?url=$@"
   },
   {
+    "name": "Noble & Greenough School",
+    "url": "https://ezproxy.nobles.edu/login?url=$@"
+  },
+  {
     "name": "North Carolina A&T State University",
     "url": "http://ncat.idm.oclc.org/login?url=$@"
   },
