@@ -3344,6 +3344,10 @@
     "url": "https://login.proxy.library.rcsi.ie/login?url=$@"
   },
   {
+    "name": "Royal College of Surgeons in Ireland - Medical University of Bahrain",
+    "url": "https://login.ezproxy.rcsi.com/login?url=$@"
+  },
+  {
     "name": "Royal Holloway University of London",
     "url": "http://ezproxy01.rhul.ac.uk:2048/login?url=$@"
   },
