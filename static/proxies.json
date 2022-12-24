@@ -3320,8 +3320,8 @@
     "url": "http://ezproxy.roosevelt.edu:2048/login?url=$@"
   },
   {
-    "name": "Rosalind Franklin",
-    "url": "http://ezproxy.rosalindfranklin.edu:2048/login?url=$@"
+    "name": "Rosalind Franklin University",
+    "url": "https://rosalindfranklin.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Rosemont",
