@@ -1,0 +1,23 @@
+name: New/Updated Proxy URL
+description: Submit a new or updated proxy URL to the database.
+body:
+  - id: institution
+    type: input
+    attributes:
+      label: Name
+      description: The name of the school or institution the proxy URL is for.
+      placeholder: Name
+    validations:
+      required: true
+
+  - id: url
+    type: input
+    attributes:
+      label: URL
+      description: >
+        The proxy URL.  The URL *MUST* include `$@`, to signal where the
+        proxied URL should go.  For example:
+        `http://www.library.drexel.edu/cgi-bin/r.cgi?url=$@`
+      placeholder: http://www.library.drexel.edu/cgi-bin/r.cgi?url=$@
+    validations:
+      required: true
