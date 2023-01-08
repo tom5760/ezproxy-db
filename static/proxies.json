@@ -1604,6 +1604,10 @@
     "url": "https://www.ezproxy.haverford.edu/login?url=$@"
   },
   {
+    "name": "HEC Montreal",
+    "url": "http://proxy2.hec.ca/login?url=$@"
+  },
+  {
     "name": "Hellenic Open University (EAP)",
     "url": "http://proxy.eap.gr/login?url=$@"
   },
