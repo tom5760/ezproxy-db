@@ -4629,7 +4629,7 @@
   },
   {
     "name": "Universidad de Guadalajara",
-    "url": "https://wdg-biblio-udg-mx.wdg.biblio.udg.mx:8443/login?url=$@"
+    "url": "https://login.wdg.biblio.udg.mx:8443/login?url=$@"
   },
   {
     "name": "University of Guelph",
