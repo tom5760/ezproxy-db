@@ -3376,10 +3376,6 @@
     "url": "https://proxy.libraries.rutgers.edu/login?url=$@"
   },
   {
-    "name": "Ryerson University",
-    "url": "http://ezproxy.lib.ryerson.ca/login?url=$@"
-  },
-  {
     "name": "SALUS",
     "url": "http://salus.idm.oclc.org/login?url=$@"
   },
@@ -4010,6 +4006,10 @@
   {
     "name": "Thomas More",
     "url": "http://library.thomasmore.edu:2048/login?url=$@"
+  },
+  {
+    "name": "Toronto Metropolitan University",
+    "url": "https://ezproxy.lib.torontomu.ca/login?url=$@"
   },
   {
     "name": "Trent",
