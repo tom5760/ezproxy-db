@@ -3544,6 +3544,10 @@
     "url": "http://ezproxy.spu.edu/login?url=$@"
   },
   {
+    "name": "Seattle Public Library",
+    "url": "https://ezproxy.spl.org/login?url=$@"
+  },
+  {
     "name": "Seneca",
     "url": "http://lcweb.senecac.on.ca:2048/login?url=$@"
   },
