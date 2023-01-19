@@ -2597,7 +2597,7 @@
   },
   {
     "name": "Munich University of Applied Sciences",
-    "url": "https://ezproxy.bib.hm.edu/login?url=%@" 
+    "url": "https://ezproxy.bib.hm.edu/login?url=$@"
   },
   {
     "name": "Murray State University",
