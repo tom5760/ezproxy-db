@@ -5640,8 +5640,8 @@
     "url": "https://vu-nl.idm.oclc.org/login?url=$@"
   },
   {
-    "name": "Vrije Universiteit Brussel",
-    "url": "https://www.vub.ac.be/cgi-bin/ezlogin?url=$@"
+    "name": "Vrije Universiteit Brussel (VUB)",
+    "url": "https://myezproxy.vub.ac.be/login?url=$@"
   },
   {
     "name": "Vrije Universiteit Brussel",
