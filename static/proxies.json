@@ -5644,10 +5644,6 @@
     "url": "https://myezproxy.vub.ac.be/login?url=$@"
   },
   {
-    "name": "Vrije Universiteit Brussel",
-    "url": "https://biblio.vub.ac.be/ezproxy/login.csp?url=$@"
-  },
-  {
     "name": "Wageningen UR",
     "url": "http://ezproxy.library.wur.nl/login?url=$@ "
   },
