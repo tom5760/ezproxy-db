@@ -4232,6 +4232,10 @@
     "url": "https://ezbusc.usc.gal/login?url=$@"
   },
   {
+    "name": "Universidad Técnica Federico Santa María (UTFSM)",
+    "url": "https://login.usm.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "Universita degli Studi G dAnnunzio Chieti",
     "url": "http://biblioproxy.unich.it/login?url=$@"
   },
