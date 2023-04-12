@@ -3817,11 +3817,11 @@
   },
   {
     "name": "Sungkyunkwan University, Campus of Natural Science",
-    "url": "http://openlink.sa.skku.edu/link.n2s?url=$@"
+    "url": "https://sa.skku.edu:8443/link.n2s?url=$@"
   },
   {
     "name": "Sungkyunkwan University, Humanities/Social Science Campus",
-    "url": "http://openlink.ca.skku.edu/link.n2s?url=$@"
+    "url": "https://ca.skku.edu:8443/link.n2s?url=$@"
   },
   {
     "name": "Sunway University",
