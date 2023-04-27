@@ -644,6 +644,10 @@
     "url": "http://lib-proxy.fullerton.edu/login?url=$@"
   },
   {
+    "name": "California State University Long Beach",
+    "url": "https://csulb.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "California State University, Los Angeles",
     "url": "http://mimas.calstatela.edu/login?url=$@"
   },
