@@ -4768,6 +4768,10 @@
     "url": "http://www.library.umaine.edu/auth/EZProxy/test/authej.asp?url=$@"
   },
   {
+    "name": "University of Malta",
+    "url": "https://ejournals.um.edu.mt/login/?url=$@"
+  },
+  {
     "name": "University of Manitoba",
     "url": "https://uml.idm.oclc.org/login?url=$@"
   },
