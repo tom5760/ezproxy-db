@@ -192,8 +192,8 @@
     "url": "http://spot.lib.auburn.edu/login?url=$@"
   },
   {
-    "name": "Auburn University ",
-    "url": "https://auaccess.auburn.edu/c/portal/login?url=$@\n"
+    "name": "Auburn University",
+    "url": "https://auaccess.auburn.edu/c/portal/login?url=$@"
   },
   {
     "name": "Auckland University of Technology",
@@ -304,7 +304,7 @@
     "url": "http://bcd.tamhsc.libguides.com/proxy_login?url=$@"
   },
   {
-    "name": "Baylor University ",
+    "name": "Baylor University",
     "url": "http://ezproxy.baylor.edu/login?url=$@"
   },
   {
@@ -1864,7 +1864,7 @@
     "url": "http://elibrary.jcu.edu.au/login?url=$@"
   },
   {
-    "name": "Jawaharlal Nehru Technological University ",
+    "name": "Jawaharlal Nehru Technological University",
     "url": "http://ezproxy.jntu.edu/login?irl=$@"
   },
   {
@@ -2024,7 +2024,7 @@
     "url": "http://proxy-kutztown.klnpa.org/login?url=$@"
   },
   {
-    "name": "Kuyper College ",
+    "name": "Kuyper College",
     "url": "https://kuyper.idm.oclc.org/login?url=$@"
   },
   {
@@ -2057,7 +2057,7 @@
   },
   {
     "name": "La Trobe University",
-    "url": "http://ez.library.latrobe.edu.au/login?url=$@ "
+    "url": "http://ez.library.latrobe.edu.au/login?url=$@"
   },
   {
     "name": "Laguardia",
@@ -2508,7 +2508,7 @@
     "url": "http://ezproxy.millsaps.edu/login?url=$@"
   },
   {
-    "name": "Ming Chuan University ",
+    "name": "Ming Chuan University",
     "url": "http://proxy.mcu.edu.tw/login?url=$@"
   },
   {
@@ -2724,7 +2724,7 @@
     "url": "http://ezproxy.lib.ym.edu.tw/login?url=$@"
   },
   {
-    "name": "National Yang Ming Chiao Tung Univeristy",
+    "name": "National Yang Ming Chiao Tung University",
     "url": "https://ezproxy.lib.nctu.edu.tw/login?url=$@"
   },
   {
@@ -2753,7 +2753,7 @@
   },
   {
     "name": "Netherlands Institute of Ecology (NIOO-KNAW)",
-    "url": "http://ezproxy.nioo.knaw.nl/login?url=$@ "
+    "url": "http://ezproxy.nioo.knaw.nl/login?url=$@"
   },
   {
     "name": "Nevada State",
@@ -3272,7 +3272,7 @@
     "url": "http://ezproxy.rit.edu/login?url=$@"
   },
   {
-    "name": "RMIT University ",
+    "name": "RMIT University",
     "url": "https://login.ezproxy.lib.rmit.edu.au/login?url=$@"
   },
   {
@@ -4124,7 +4124,7 @@
     "url": "http://lib-ezproxy.unog.ch/login?url=$@"
   },
   {
-    "name": "Univeristy of New Mexico",
+    "name": "University of New Mexico",
     "url": "http://libproxy.unm.edu/login?url=$@"
   },
   {
@@ -5096,7 +5096,7 @@
     "url": "https://login.ezlibproxy.unisa.edu.au/login?url=$@"
   },
   {
-    "name": "University of South Australia ",
+    "name": "University of South Australia",
     "url": "https://access.library.unisa.edu.au/login?url=$@"
   },
   {
@@ -5436,7 +5436,7 @@
     "url": "https://login.insubria.idm.oclc.org/login?qurl=$@"
   },
   {
-    "name": "Università degli Studi di Bari Aldo Moro ",
+    "name": "Università degli Studi di Bari Aldo Moro",
     "url": "https://login.ezproxy.uniba.it/login?url=$@"
   },
   {
@@ -5628,7 +5628,7 @@
     "url": "http://wallaby.vu.edu.au:2048/login?url=$@"
   },
   {
-    "name": "Vienna University Library ",
+    "name": "Vienna University Library",
     "url": "http://uaccess.univie.ac.at/login?url=$@"
   },
   {
@@ -5653,7 +5653,7 @@
   },
   {
     "name": "Wageningen UR",
-    "url": "http://ezproxy.library.wur.nl/login?url=$@ "
+    "url": "http://ezproxy.library.wur.nl/login?url=$@"
   },
   {
     "name": "Waiariki Bay of Plenty Polytechnic",
