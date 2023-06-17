@@ -1432,10 +1432,6 @@
     "url": "https://login.fhcrc.idm.oclc.org/login?url=$@"
   },
   {
-    "name": "Frederic REGOTTAZ",
-    "url": "http://ezproxy.regottaz.edu/login?url=$@"
-  },
-  {
     "name": "Free University Bozen Bolzano",
     "url": "http://libproxy.unibz.it/login?url=$@"
   },
@@ -1534,10 +1530,6 @@
   {
     "name": "Great Basin College",
     "url": "http://library.gbcnv.edu:2048/login?url=$@"
-  },
-  {
-    "name": "Green Mountain",
-    "url": "http://proxy.greenmtn.edu:2048/login?url=$@"
   },
   {
     "name": "Griffith Univsity",
@@ -2156,10 +2148,6 @@
     "url": "https://library.lcproxy.org/login?url=$@"
   },
   {
-    "name": "Lewis Clark",
-    "url": "http://watzekpx.lclark.edu/login?url=$@"
-  },
-  {
     "name": "Liberty",
     "url": "http://ezproxy.liberty.edu:2048/login?url=$@"
   },
@@ -2378,10 +2366,6 @@
   {
     "name": "Marywood",
     "url": "http://marywood1.marywood.edu:2048/login?url=$@"
-  },
-  {
-    "name": "Masdar Institute",
-    "url": "http://ezproxy.masdar.ac.ae/login?url=$@"
   },
   {
     "name": "Massachusetts College of Liberal Arts",
@@ -3722,10 +3706,6 @@
   {
     "name": "St Edwards University in Austin",
     "url": "https://ezproxy.stedwards.edu/login?url=$@"
-  },
-  {
-    "name": "St Johns",
-    "url": "http://jerome.stjohns.edu:81/login?url=$@"
   },
   {
     "name": "St Louis",
