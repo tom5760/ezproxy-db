@@ -1344,6 +1344,10 @@
     "url": "http://ezproxy.everettcc.edu/login?url=$@"
   },
   {
+    "name": "Evergreen Valley College",
+    "url": "hhttps://login.evcezproxy.evc.edu/login?url=$@"
+  },
+  {
     "name": "Fachhochschule Munster",
     "url": "https://www.hb.fh-muenster.de:2443/login?url=$@"
   },
@@ -3490,6 +3494,10 @@
   {
     "name": "San Francisco State",
     "url": "http://jpllnet.sfsu.edu/login?url=$@"
+  },
+  {
+    "name": "San Jose City College",
+    "url": "https://login.sjccezproxy.sjcc.edu/login?url=$@"
   },
   {
     "name": "San Jose State University",
