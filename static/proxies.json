@@ -4,18 +4,6 @@
     "url": "http://p.atsu.edu/login?url=$@"
   },
   {
-    "name": "AFIT D'Azzo Research Library",
-    "url": "https://login.afit.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "AFRL D'Azzo Research Library",
-    "url": "http://wrs.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "ANZCA",
-    "url": "http://ezproxy.anzca.edu.au/login?url=$@"
-  },
-  {
     "name": "Aalborg Universitet",
     "url": "http://zorac.aub.aau.dk/login?qurl=$@"
   },
@@ -44,12 +32,24 @@
     "url": "http://ezproxy.adler.edu/login?url=$@"
   },
   {
+    "name": "AFIT D'Azzo Research Library",
+    "url": "https://login.afit.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "AFRL D'Azzo Research Library",
+    "url": "http://wrs.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "Agency for Science Technology and Research",
     "url": "http://ejproxy.a-star.edu.sg/login?url=$@"
   },
   {
     "name": "Aichi Shukutoku University Library",
     "url": "https://aasa.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "Air University",
+    "url": "http://aufric.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Akademie ved Ceske republiky",
@@ -92,14 +92,6 @@
     "url": "http://ezproxy1.allegheny.edu:2048/login?url=$@"
   },
   {
-    "name": "American University, Washington, D.C.",
-    "url": "http://proxyau.wrlc.org/login?url=$@"
-  },
-  {
-    "name": "The American College of Greece",
-    "url": "https://acg.idm.oclc.org/login?url=$@"
-  },
-  {
     "name": "American Institutes for Research",
     "url": "https://air.idm.oclc.org/login?url=$@"
   },
@@ -113,19 +105,15 @@
   },
   {
     "name": "American Public University System",
-    "url": "https://login.ezproxy1.apus.edu/login?url=$@"
+    "url": "http://ezproxy.apus.edu/login?url=$@"
   },
   {
     "name": "American Public University System",
-    "url": "http://ezproxy.apus.edu/login?url=$@"
+    "url": "https://login.ezproxy1.apus.edu/login?url=$@"
   },
   {
     "name": "American University",
     "url": "https://myau.american.edu/my.policy?url=$@"
-  },
-  {
-    "name": "American University Washington College of Law",
-    "url": "http://proxy.wcl.american.edu/login?url=$@"
   },
   {
     "name": "American University in Cairo",
@@ -134,6 +122,14 @@
   {
     "name": "American University of Beirut",
     "url": "https://ezproxy.aub.edu.lb/login?url=$@"
+  },
+  {
+    "name": "American University Washington College of Law",
+    "url": "http://proxy.wcl.american.edu/login?url=$@"
+  },
+  {
+    "name": "American University, Washington, D.C.",
+    "url": "http://proxyau.wrlc.org/login?url=$@"
   },
   {
     "name": "Amherst College",
@@ -158,6 +154,10 @@
   {
     "name": "Antioch",
     "url": "https://antioch.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "ANZCA",
+    "url": "http://ezproxy.anzca.edu.au/login?url=$@"
   },
   {
     "name": "Arcadia",
@@ -252,10 +252,6 @@
     "url": "http://ezproxy.averett.edu/login?url=$@"
   },
   {
-    "name": "BI Norwegian Business School",
-    "url": "http://ezproxy.library.bi.no/login?url=$@"
-  },
-  {
     "name": "Baden State Library",
     "url": "https://login.ezproxy.blb-karlsruhe.de/login?url=$@"
   },
@@ -342,6 +338,10 @@
   {
     "name": "Bethel",
     "url": "http://ezproxy.bethel.edu/login?url=$@"
+  },
+  {
+    "name": "BI Norwegian Business School",
+    "url": "http://ezproxy.library.bi.no/login?url=$@"
   },
   {
     "name": "BiblioPl@nets - CNRS INIST",
@@ -500,110 +500,6 @@
     "url": "http://ez119.periodicos.capes.gov.br/login?url=$@"
   },
   {
-    "name": "CERN",
-    "url": "https://ezproxy.cern.ch/login?url=$@"
-  },
-  {
-    "name": "CETYS University",
-    "url": "https://ebiblio.cetys.mx/login?url=$@"
-  },
-  {
-    "name": "CIAP, NSW Health",
-    "url": "http://acs.hcn.com.au/?acc=36422&url=$@"
-  },
-  {
-    "name": "CNRS INEE",
-    "url": "http://inee.bib.cnrs.fr/login?url=$@"
-  },
-  {
-    "name": "CNRS INSB",
-    "url": "http://insb.bib.cnrs.fr/login?url=$@"
-  },
-  {
-    "name": "CQUniversity Australia",
-    "url": "https://ezproxy.cqu.edu.au/login?url=$@"
-  },
-  {
-    "name": "CSU Chico",
-    "url": "http://mantis.csuchico.edu/login?url=$@"
-  },
-  {
-    "name": "CSU East Bay",
-    "url": "http://proxylib.csueastbay.edu/login?url=$@"
-  },
-  {
-    "name": "CSU Fresno",
-    "url": "http://hmlproxy.lib.csufresno.edu/login?url=$@"
-  },
-  {
-    "name": "CSU Sacramento",
-    "url": "http://proxy.lib.csus.edu/login?url=$@"
-  },
-  {
-    "name": "CSU San Bernardino",
-    "url": "http://libproxy.lib.csusb.edu/login?url=$@"
-  },
-  {
-    "name": "CUNY Baruch",
-    "url": "http://remote.baruch.cuny.edu/login?url=$@"
-  },
-  {
-    "name": "CUNY Central Office",
-    "url": "http://central.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY City College of New York",
-    "url": "http://ccny-proxy1.libr.ccny.cuny.edu/login?url=$@"
-  },
-  {
-    "name": "CUNY College of Staten Island",
-    "url": "http://proxy.library.csi.cuny.edu/login?url=$@"
-  },
-  {
-    "name": "CUNY Graduate School of Journalism",
-    "url": "http://journalism.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY Hostos",
-    "url": "http://hostos.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY Hunter",
-    "url": "http://proxy.wexler.hunter.cuny.edu/login?url=$@"
-  },
-  {
-    "name": "CUNY John Jay College of Criminal Justice",
-    "url": "http://ez.lib.jjay.cuny.edu/login?url=$@"
-  },
-  {
-    "name": "CUNY Kingsborough",
-    "url": "http://kbcc.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY Law School",
-    "url": "http://law.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY Medgar Evers",
-    "url": "http://mec.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY New York City College of Technology",
-    "url": "http://citytech.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY Queens",
-    "url": "http://queens.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY Queensborough",
-    "url": "http://qbcc.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
-    "name": "CUNY York",
-    "url": "http://york.ezproxy.cuny.edu:2048/login?url=$@"
-  },
-  {
     "name": "Cal Poly Pomona",
     "url": "https://login.proxy.library.cpp.edu/login?url=$@"
   },
@@ -632,6 +528,10 @@
     "url": "https://calpoly.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "California State University Long Beach",
+    "url": "https://csulb.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "California State University San Marcos",
     "url": "https://ezproxy.csusm.edu/login?url=$@"
   },
@@ -642,10 +542,6 @@
   {
     "name": "California State University, Fullerton",
     "url": "http://lib-proxy.fullerton.edu/login?url=$@"
-  },
-  {
-    "name": "California State University Long Beach",
-    "url": "https://csulb.idm.oclc.org/login?url=$@"
   },
   {
     "name": "California State University, Los Angeles",
@@ -744,10 +640,6 @@
     "url": "http://ezproxy.cayuga-cc.edu:2048/login?url=$@"
   },
   {
-    "name": "CeRA - Indian Agricultural Research Institute",
-    "url": "http://14.139.56.75/login?url=$@"
-  },
-  {
     "name": "Cedars-Sinai Medical Center",
     "url": "http://mlprox.csmc.edu/login?url=$@"
   },
@@ -780,20 +672,32 @@
     "url": "https://ezproxy.centre.edu/login?url=$@"
   },
   {
+    "name": "CeRA - Indian Agricultural Research Institute",
+    "url": "http://14.139.56.75/login?url=$@"
+  },
+  {
+    "name": "CERN",
+    "url": "https://ezproxy.cern.ch/login?url=$@"
+  },
+  {
     "name": "Cerro Coso",
     "url": "http://ezproxy.cerrocoso.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CETYS University",
+    "url": "https://ebiblio.cetys.mx/login?url=$@"
   },
   {
     "name": "Chadli Bendjedid University",
     "url": "http://ezproxy.univ-eltarf.dz/login?url=$@"
   },
   {
-    "name": "Chalmers University of Technology",
-    "url": "https://login.proxy.lib.chalmers.se/login?url=$@"
-  },
-  {
     "name": "Chalmers tekniska hogskola AB",
     "url": "http://proxy.lib.chalmers.se/login?url=$@"
+  },
+  {
+    "name": "Chalmers University of Technology",
+    "url": "https://login.proxy.lib.chalmers.se/login?url=$@"
   },
   {
     "name": "Champlain College Online",
@@ -834,6 +738,10 @@
   {
     "name": "Chinese University of Hong Kong",
     "url": "https://easylogin1.lib.cuhk.edu.hk/login?url=$@"
+  },
+  {
+    "name": "CIAP, NSW Health",
+    "url": "http://acs.hcn.com.au/?acc=36422&url=$@"
   },
   {
     "name": "Cincinnati State Technical and",
@@ -900,6 +808,14 @@
     "url": "http://ezproxy.clinton.edu:2048/login?url=$@"
   },
   {
+    "name": "CNRS INEE",
+    "url": "http://inee.bib.cnrs.fr/login?url=$@"
+  },
+  {
+    "name": "CNRS INSB",
+    "url": "http://insb.bib.cnrs.fr/login?url=$@"
+  },
+  {
     "name": "Coastal Carolina",
     "url": "http://login.library.coastal.edu:2048/login?url=$@"
   },
@@ -928,10 +844,6 @@
     "url": "http://ezproxy.library.csn.edu/login?url=$@"
   },
   {
-    "name": "College of William and Mary",
-    "url": "https://proxy.wm.edu/login?url=$@"
-  },
-  {
     "name": "College of the Canyons",
     "url": "http://ezproxy.canyons.edu:2048/login?url=$@"
   },
@@ -946,6 +858,10 @@
   {
     "name": "College of the Sequoias",
     "url": "http://cos.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "College of William and Mary",
+    "url": "https://proxy.wm.edu/login?url=$@"
   },
   {
     "name": "Colorado Mountain",
@@ -1040,10 +956,6 @@
     "url": "http://encompass.library.cornell.edu/cgi-bin/checkIP.cgi?access=gateway_standard&url=$@"
   },
   {
-    "name": "SUNY Corning Community College",
-    "url": "http://ezproxy.corning-cc.edu:2048/login?url=$@"
-  },
-  {
     "name": "County College of Morris",
     "url": "http://skynet.ccm.edu:2048/login?url=$@"
   },
@@ -1052,8 +964,92 @@
     "url": "https://search.covenantseminary.edu/login?url=$@"
   },
   {
+    "name": "CQUniversity Australia",
+    "url": "https://ezproxy.cqu.edu.au/login?url=$@"
+  },
+  {
     "name": "Creighton University",
     "url": "https://login.cuhsl.creighton.edu/login?url=$@"
+  },
+  {
+    "name": "CSU Chico",
+    "url": "http://mantis.csuchico.edu/login?url=$@"
+  },
+  {
+    "name": "CSU East Bay",
+    "url": "http://proxylib.csueastbay.edu/login?url=$@"
+  },
+  {
+    "name": "CSU Fresno",
+    "url": "http://hmlproxy.lib.csufresno.edu/login?url=$@"
+  },
+  {
+    "name": "CSU Sacramento",
+    "url": "http://proxy.lib.csus.edu/login?url=$@"
+  },
+  {
+    "name": "CSU San Bernardino",
+    "url": "http://libproxy.lib.csusb.edu/login?url=$@"
+  },
+  {
+    "name": "CUNY Baruch",
+    "url": "http://remote.baruch.cuny.edu/login?url=$@"
+  },
+  {
+    "name": "CUNY Central Office",
+    "url": "http://central.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY City College of New York",
+    "url": "http://ccny-proxy1.libr.ccny.cuny.edu/login?url=$@"
+  },
+  {
+    "name": "CUNY College of Staten Island",
+    "url": "http://proxy.library.csi.cuny.edu/login?url=$@"
+  },
+  {
+    "name": "CUNY Graduate School of Journalism",
+    "url": "http://journalism.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY Hostos",
+    "url": "http://hostos.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY Hunter",
+    "url": "http://proxy.wexler.hunter.cuny.edu/login?url=$@"
+  },
+  {
+    "name": "CUNY John Jay College of Criminal Justice",
+    "url": "http://ez.lib.jjay.cuny.edu/login?url=$@"
+  },
+  {
+    "name": "CUNY Kingsborough",
+    "url": "http://kbcc.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY Law School",
+    "url": "http://law.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY Medgar Evers",
+    "url": "http://mec.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY New York City College of Technology",
+    "url": "http://citytech.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY Queens",
+    "url": "http://queens.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY Queensborough",
+    "url": "http://qbcc.ezproxy.cuny.edu:2048/login?url=$@"
+  },
+  {
+    "name": "CUNY York",
+    "url": "http://york.ezproxy.cuny.edu:2048/login?url=$@"
   },
   {
     "name": "Curry College",
@@ -1066,10 +1062,6 @@
   {
     "name": "Curtin University",
     "url": "https://link.library.curtin.edu.au/gw?url=$@"
-  },
-  {
-    "name": "DYouville",
-    "url": "https://dyc.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Dakota Wesleyan",
@@ -1097,11 +1089,11 @@
   },
   {
     "name": "Davidson College",
-    "url": "http://ezproxy.lib.davidson.edu/login?url=$@"
+    "url": "https://login.proxy048.nclive.org/login?url=$@"
   },
   {
     "name": "Davidson College",
-    "url": "https://login.proxy048.nclive.org/login?url=$@"
+    "url": "http://ezproxy.lib.davidson.edu/login?url=$@"
   },
   {
     "name": "Daviess County Public Library",
@@ -1114,10 +1106,6 @@
   {
     "name": "De Montfort University",
     "url": "http://proxy.library.dmu.ac.uk/login?url=$@"
-  },
-  {
-    "name": "DeVry",
-    "url": "http://proxy.devry.edu/login?url=$@"
   },
   {
     "name": "Deakin University",
@@ -1134,6 +1122,10 @@
   {
     "name": "Delta College",
     "url": "http://ezproxy.delta.edu:2048/login?url=$@"
+  },
+  {
+    "name": "DeVry",
+    "url": "http://proxy.devry.edu/login?url=$@"
   },
   {
     "name": "Dickinson College",
@@ -1184,20 +1176,8 @@
     "url": "http://ezproxy.dscc.edu:2048/login?url=$@"
   },
   {
-    "name": "ENCG Settat",
-    "url": "https://www.ezproxy.uh1.ac.ma/login?url=$@"
-  },
-  {
-    "name": "ERDC",
-    "url": "http://erdclibrary.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "ESSEC Business School",
-    "url": "https://login.ezp.essec.fr/login?url=$@"
-  },
-  {
-    "name": "ETH Zurich",
-    "url": "https://proxy.ethz.ch/cgi-bin/login.pl?url=$@"
+    "name": "DYouville",
+    "url": "https://dyc.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Earlham College",
@@ -1324,12 +1304,28 @@
     "url": "https://proxy.library.emory.edu/login?url=$@"
   },
   {
+    "name": "ENCG Settat",
+    "url": "https://www.ezproxy.uh1.ac.ma/login?url=$@"
+  },
+  {
     "name": "Erasmus University Rotterdam",
     "url": "https://eur.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "ERDC",
+    "url": "http://erdclibrary.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "Erie",
     "url": "https://ezproxy.ecc.edu:2443/login?url=$@"
+  },
+  {
+    "name": "ESSEC Business School",
+    "url": "https://login.ezp.essec.fr/login?url=$@"
+  },
+  {
+    "name": "ETH Zurich",
+    "url": "https://proxy.ethz.ch/cgi-bin/login.pl?url=$@"
   },
   {
     "name": "European University Institute",
@@ -1342,10 +1338,6 @@
   {
     "name": "Everett",
     "url": "http://ezproxy.everettcc.edu/login?url=$@"
-  },
-  {
-    "name": "Evergreen Valley College",
-    "url": "https://login.evcezproxy.evc.edu/login?url=$@"
   },
   {
     "name": "Fachhochschule Munster",
@@ -1548,18 +1540,6 @@
     "url": "http://ezproxy.gtcc.edu:2048/login?url=$@"
   },
   {
-    "name": "HEC Paris",
-    "url": "http://ezproxy.hec.fr/login?url=$@"
-  },
-  {
-    "name": "HEIG-VD",
-    "url": "https://biblioproxy.heig-vd.ch/login?url=$@"
-  },
-  {
-    "name": "HELP University",
-    "url": "https://ezproxy.help.edu.my/login?url=$@"
-  },
-  {
     "name": "Halmstad University",
     "url": "https://ezproxy.bib.hh.se/login?url=$@"
   },
@@ -1608,8 +1588,20 @@
     "url": "http://proxy2.hec.ca/login?url=$@"
   },
   {
+    "name": "HEC Paris",
+    "url": "http://ezproxy.hec.fr/login?url=$@"
+  },
+  {
+    "name": "HEIG-VD",
+    "url": "https://biblioproxy.heig-vd.ch/login?url=$@"
+  },
+  {
     "name": "Hellenic Open University (EAP)",
     "url": "http://proxy.eap.gr/login?url=$@"
+  },
+  {
+    "name": "HELP University",
+    "url": "https://ezproxy.help.edu.my/login?url=$@"
   },
   {
     "name": "Helsingin yliopisto",
@@ -1712,8 +1704,16 @@
     "url": "https://login.galanga.hvl.no/login?url=$@"
   },
   {
+    "name": "Ibn Haldun University Library",
+    "url": "https://offcampus.ihu.edu.tr/login?url=$@"
+  },
+  {
     "name": "Idaho College of Osteopathic Medicine",
     "url": "https://icom.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "Idaho State",
+    "url": "http://libpublic3.library.isu.edu/login?url=$@"
   },
   {
     "name": "IIT Chicago-Kent College of Law",
@@ -1722,30 +1722,6 @@
   {
     "name": "IIT Italian Institute of Technology",
     "url": "https://login.biblio.iit.it/login?url=$@"
-  },
-  {
-    "name": "INSA de Rennes",
-    "url": "http://rproxy.insa-rennes.fr/login?url=$@"
-  },
-  {
-    "name": "Institut de l'Information Scientifique et Technique (INSERM)",
-    "url": "https://proxy.insermbiblio.inist.fr/login?url=$@"
-  },
-  {
-    "name": "IT University of Copenhagen",
-    "url": "https://ep.ituproxy.kb.dk/login?url=$@"
-  },
-  {
-    "name": "IUCAA",
-    "url": "http://ezproxy.iucaa.ernet.in:2048/login?url=$@"
-  },
-  {
-    "name": "Ibn Haldun University Library",
-    "url": "https://offcampus.ihu.edu.tr/login?url=$@"
-  },
-  {
-    "name": "Idaho State",
-    "url": "http://libpublic3.library.isu.edu/login?url=$@"
   },
   {
     "name": "Illinois Institute of Technology",
@@ -1772,6 +1748,10 @@
     "url": "http://proxyiub.uits.iu.edu/login?url=$@"
   },
   {
+    "name": "Indiana University of Pennsylvania",
+    "url": "http://proxy-iup.klnpa.org/login?url=$@"
+  },
+  {
     "name": "Indiana University Purdue University Indianapolis",
     "url": "http://proxy.ulib.iupui.edu/login?url=$@"
   },
@@ -1780,20 +1760,28 @@
     "url": "https://proxy.medlib.iupui.edu/login?url=$@"
   },
   {
-    "name": "Indiana University of Pennsylvania",
-    "url": "http://proxy-iup.klnpa.org/login?url=$@"
+    "name": "INFLIBNET Centre (Information and Library Network Centre)",
+    "url": "http://nlist.inflibnet.ac.in:2048/login?url=$@"
   },
   {
-    "name": "Institut National Polytechnique - Toulouse",
-    "url": "https://gorgone.univ-toulouse.fr/login?url=$@"
+    "name": "INSA de Rennes",
+    "url": "http://rproxy.insa-rennes.fr/login?url=$@"
+  },
+  {
+    "name": "Institut de l'Information Scientifique et Technique (INSERM)",
+    "url": "https://proxy.insermbiblio.inist.fr/login?url=$@"
+  },
+  {
+    "name": "Institut national de la recherche scientifique",
+    "url": "http://erable.inrs.ca:2048/login?url=$@"
   },
   {
     "name": "Institut National des Sciences Appliquées  - Toulouse",
     "url": "https://gorgone.univ-toulouse.fr/login?url=$@"
   },
   {
-    "name": "Institut national de la recherche scientifique",
-    "url": "http://erable.inrs.ca:2048/login?url=$@"
+    "name": "Institut National Polytechnique - Toulouse",
+    "url": "https://gorgone.univ-toulouse.fr/login?url=$@"
   },
   {
     "name": "Institut national universitaire Jean-François - Champollion",
@@ -1832,12 +1820,20 @@
     "url": "http://ezp.isikun.edu.tr/login?url=$@"
   },
   {
+    "name": "IT University of Copenhagen",
+    "url": "https://ep.ituproxy.kb.dk/login?url=$@"
+  },
+  {
     "name": "Ita-Suomen yliopisto",
     "url": "http://ezproxy.uef.fi:2048/login?url=$@"
   },
   {
     "name": "Ithaca",
     "url": "https://login.ezproxy.ithaca.edu/login?qurl=$@"
+  },
+  {
+    "name": "IUCAA",
+    "url": "http://ezproxy.iucaa.ernet.in:2048/login?url=$@"
   },
   {
     "name": "Ivy Tech",
@@ -1848,8 +1844,8 @@
     "url": "http://ej.iwate-med.ac.jp:2048/login?url=$@"
   },
   {
-    "name": "The Jackson Laboratory",
-    "url": "http://ezproxy.jax.org/login?url=$@"
+    "name": "İzmir Institute of Technology",
+    "url": "http://libezproxy.iyte.edu.tr:81/login?url=$@"
   },
   {
     "name": "Jackson State",
@@ -1904,10 +1900,6 @@
     "url": "http://ezproxy.jyu.fi/login?url=$@"
   },
   {
-    "name": "KULeuven",
-    "url": "https://kuleuven.e-bronnen.be/login?url=$@"
-  },
-  {
     "name": "Kadir Has University Library",
     "url": "https://icproxy.khas.edu.tr/login?url=$@"
   },
@@ -1942,10 +1934,6 @@
   {
     "name": "Keiser University",
     "url": "http://ezproxy.keiser.edu/login?url=$@"
-  },
-  {
-    "name": "National Louis University (Kendall)",
-    "url": "http://ezp.kendall.edu/login?url=$@"
   },
   {
     "name": "Kennesaw State",
@@ -2012,6 +2000,10 @@
     "url": "http://egms.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "KULeuven",
+    "url": "https://kuleuven.e-bronnen.be/login?url=$@"
+  },
+  {
     "name": "Kungliga Tekniska Hogskolan",
     "url": "http://focus.lib.kth.se/login?url=$@"
   },
@@ -2038,10 +2030,6 @@
   {
     "name": "LA BioMed",
     "url": "http://journals.labiomed.org/login?url=$@"
-  },
-  {
-    "name": "LSU Health Sciences Center New Orleans",
-    "url": "https://ezproxy.lsuhsc.edu/login?url=$@"
   },
   {
     "name": "La Salle",
@@ -2100,16 +2088,12 @@
     "url": "https://login.librweb.laurentian.ca/login?url=$@"
   },
   {
-    "name": "Lawrence University",
-    "url": "http://proxy.lawrence.edu:2048/login?url=$@"
-  },
-  {
     "name": "Lawrence Technological",
     "url": "http://ezproxy.ltu.edu:8080/login?url=$@"
   },
   {
-    "name": "LeTourneau University",
-    "url": "http://research-db.letu.edu/login?url=$@"
+    "name": "Lawrence University",
+    "url": "http://proxy.lawrence.edu:2048/login?url=$@"
   },
   {
     "name": "Lebanese University",
@@ -2146,6 +2130,10 @@
   {
     "name": "Leiden University",
     "url": "https://ezproxy.leidenuniv.nl:2443/login?url=$@"
+  },
+  {
+    "name": "LeTourneau University",
+    "url": "http://research-db.letu.edu/login?url=$@"
   },
   {
     "name": "Lewis & Clark College",
@@ -2236,6 +2224,10 @@
     "url": "http://ezproxy.loyno.edu/login?url=$@"
   },
   {
+    "name": "LSU Health Sciences Center New Orleans",
+    "url": "https://ezproxy.lsuhsc.edu/login?url=$@"
+  },
+  {
     "name": "Ludwig-Maximilians-Universität München",
     "url": "http://emedien.ub.uni-muenchen.de/login?url=$@"
   },
@@ -2264,32 +2256,16 @@
     "url": "http://ezproxy.lynchburg.edu/login?url=$@"
   },
   {
-    "name": "MCPHS (Massachusetts College of Pharmacy and Health Science)",
-    "url": "https://ezproxymcp.flo.org/login?qurl=$@"
-  },
-  {
-    "name": "MEF University",
-    "url": "http://ezproxy.mef.edu.tr/login?url=$@"
-  },
-  {
-    "name": "MIT",
-    "url": "https://libproxy.mit.edu/cgi-bin/ezpauth?url=$@"
-  },
-  {
-    "name": "MPI for Human Development Berlin",
-    "url": "http://ezproxy.mpib-berlin.mpg.de/login?url=$@"
-  },
-  {
     "name": "Maastricht University",
     "url": "http://ezproxy.ub.unimaas.nl/login?url=$@"
   },
   {
-    "name": "MacEwan University",
-    "url": "http://ezproxy.macewan.ca/login?url=$@"
-  },
-  {
     "name": "Macalester",
     "url": "http://ezproxy.macalester.edu/login?url=$@"
+  },
+  {
+    "name": "MacEwan University",
+    "url": "http://ezproxy.macewan.ca/login?url=$@"
   },
   {
     "name": "Macquarie University",
@@ -2345,11 +2321,11 @@
   },
   {
     "name": "Marshall University",
-    "url": "http://ezproxy.marshall.edu:2048/login?url=$@"
+    "url": "http://marshall.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Marshall University",
-    "url": "http://marshall.idm.oclc.org/login?url=$@"
+    "url": "http://ezproxy.marshall.edu:2048/login?url=$@"
   },
   {
     "name": "Marygrove",
@@ -2408,12 +2384,12 @@
     "url": "http://libaccess.lib.mcmaster.ca/login?url=$@"
   },
   {
-    "name": "Medical College of Wisconsin",
-    "url": "https://login.proxy.lib.mcw.edu/login?url=$@"
+    "name": "MCPHS (Massachusetts College of Pharmacy and Health Science)",
+    "url": "https://ezproxymcp.flo.org/login?qurl=$@"
   },
   {
-    "name": "Medical University Vienna",
-    "url": "http://ez.srv.meduniwien.ac.at/login?url=$@"
+    "name": "Medical College of Wisconsin",
+    "url": "https://login.proxy.lib.mcw.edu/login?url=$@"
   },
   {
     "name": "Medical University of Bialystok",
@@ -2422,6 +2398,14 @@
   {
     "name": "Medical University of South Carolina",
     "url": "http://ezproxy.musc.edu/login?url=$@"
+  },
+  {
+    "name": "Medical University Vienna",
+    "url": "http://ez.srv.meduniwien.ac.at/login?url=$@"
+  },
+  {
+    "name": "MEF University",
+    "url": "http://ezproxy.mef.edu.tr/login?url=$@"
   },
   {
     "name": "Memorial Sloan Kettering Cancer Center",
@@ -2516,6 +2500,10 @@
     "url": "http://libproxy.mst.edu:2048/login?url=$@"
   },
   {
+    "name": "MIT",
+    "url": "https://libproxy.mit.edu/cgi-bin/ezpauth?url=$@"
+  },
+  {
     "name": "Mohawk College",
     "url": "http://ezproxy.mohawkcollege.ca:2048/login?url=$@"
   },
@@ -2576,6 +2564,10 @@
     "url": "https://msm.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "MPI for Human Development Berlin",
+    "url": "http://ezproxy.mpib-berlin.mpg.de/login?url=$@"
+  },
+  {
     "name": "Mt. Sinai School of Medicine (NYU)",
     "url": "http://eresources.library.mssm.edu:2048/login?url=$@"
   },
@@ -2602,22 +2594,6 @@
   {
     "name": "Médiathèques FM6",
     "url": "http://proxy.mediatheque-fm6.ma/login?url=$@"
-  },
-  {
-    "name": "INFLIBNET Centre (Information and Library Network Centre)",
-    "url": "http://nlist.inflibnet.ac.in:2048/login?url=$@"
-  },
-  {
-    "name": "NMIMS",
-    "url": "https://ezproxy.svkm.ac.in/login?url=$@"
-  },
-  {
-    "name": "NYU Alumni",
-    "url": "http://alumniproxy.library.nyu.edu/login?url=$@"
-  },
-  {
-    "name": "NYU Medical",
-    "url": "https://ezproxy.med.nyu.edu/login?url=$@"
   },
   {
     "name": "Nacionalna i sveucilisna knjiznica u Zagrebu",
@@ -2668,6 +2644,10 @@
     "url": "http://ezproxy.nihlibrary.nih.gov/login?url=$@"
   },
   {
+    "name": "National Louis University (Kendall)",
+    "url": "http://ezp.kendall.edu/login?url=$@"
+  },
+  {
     "name": "National Research Council Canada",
     "url": "https://login.pass.cisti-icist.nrc-cnrc.gc.ca/login?url=$@"
   },
@@ -2708,12 +2688,12 @@
     "url": "http://libproxy1.nus.edu.sg/login?url=$@"
   },
   {
-    "name": "National Yang-Ming",
-    "url": "http://ezproxy.lib.ym.edu.tw/login?url=$@"
-  },
-  {
     "name": "National Yang Ming Chiao Tung University",
     "url": "https://ezproxy.lib.nctu.edu.tw/login?url=$@"
+  },
+  {
+    "name": "National Yang-Ming",
+    "url": "http://ezproxy.lib.ym.edu.tw/login?url=$@"
   },
   {
     "name": "Naval Postgraduate School",
@@ -2804,6 +2784,10 @@
     "url": "http://roxy.nipissingu.ca/login?url=$@"
   },
   {
+    "name": "NMIMS",
+    "url": "https://ezproxy.svkm.ac.in/login?url=$@"
+  },
+  {
     "name": "Noble and Greenough School",
     "url": "https://ezproxy.nobles.edu/login?url=$@"
   },
@@ -2816,12 +2800,12 @@
     "url": "http://proxying.lib.ncsu.edu/index.php?url=$@"
   },
   {
-    "name": "North Central University",
-    "url": "https://ezproxy.northcentral.edu/login?url=$@"
-  },
-  {
     "name": "North Central Texas College",
     "url": "http://www.ezproxy.nctc.edu/login?url=$@"
+  },
+  {
+    "name": "North Central University",
+    "url": "https://ezproxy.northcentral.edu/login?url=$@"
   },
   {
     "name": "North Dakota State University",
@@ -2940,16 +2924,16 @@
     "url": "https://nunez.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "NYU Alumni",
+    "url": "http://alumniproxy.library.nyu.edu/login?url=$@"
+  },
+  {
+    "name": "NYU Medical",
+    "url": "https://ezproxy.med.nyu.edu/login?url=$@"
+  },
+  {
     "name": "Národní technická knihovna",
     "url": "https://ezproxy.techlib.cz/login/?url=$@"
-  },
-  {
-    "name": "OCAD",
-    "url": "https://ocadu.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "OSF HealthCare",
-    "url": "http://libproxy.osfhealthcare.org/login?url=$@"
   },
   {
     "name": "Oak Ridge National Laboratory",
@@ -2978,6 +2962,10 @@
   {
     "name": "Observatoire de Paris",
     "url": "http://ezproxy.obspm.fr/login?url=$@"
+  },
+  {
+    "name": "OCAD",
+    "url": "https://ocadu.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Ohio",
@@ -3066,6 +3054,10 @@
   {
     "name": "Osaka",
     "url": "http://remote.library.osaka-u.ac.jp/login?url=$@"
+  },
+  {
+    "name": "OSF HealthCare",
+    "url": "http://libproxy.osfhealthcare.org/login?url=$@"
   },
   {
     "name": "Ottawa Public Library",
@@ -3164,12 +3156,12 @@
     "url": "https://plymouth.idm.oclc.org/login?url=$@"
   },
   {
-    "name": "Point University",
-    "url": "http://ezproxy.point.edu:2048/login?url=$@"
-  },
-  {
     "name": "Point Park",
     "url": "https://proxy.pointpark.edu/login?url=$@"
+  },
+  {
+    "name": "Point University",
+    "url": "http://ezproxy.point.edu:2048/login?url=$@"
   },
   {
     "name": "Politecnico di Torino",
@@ -3256,14 +3248,6 @@
     "url": "https://ezproxyqcc.helmlib.org/login?url=$@"
   },
   {
-    "name": "Rochester Institute of Technology",
-    "url": "http://ezproxy.rit.edu/login?url=$@"
-  },
-  {
-    "name": "RMIT University",
-    "url": "https://login.ezproxy.lib.rmit.edu.au/login?url=$@"
-  },
-  {
     "name": "Radboud University, Nijmegen",
     "url": "https://ru.idm.oclc.org/login?url=$@"
   },
@@ -3304,8 +3288,16 @@
     "url": "http://ezproxy.rcc.edu:2048/login?url=$@"
   },
   {
+    "name": "RMIT University",
+    "url": "https://login.ezproxy.lib.rmit.edu.au/login?url=$@"
+  },
+  {
     "name": "Robert Morris University",
     "url": "https://reddog.rmu.edu/login?url=$@"
+  },
+  {
+    "name": "Rochester Institute of Technology",
+    "url": "http://ezproxy.rit.edu/login?url=$@"
   },
   {
     "name": "Rollins",
@@ -3336,10 +3328,6 @@
     "url": "https://rcn.idm.oclc.org/login?url=$@"
   },
   {
-    "name": "The Royal College of Surgeons in Ireland",
-    "url": "https://login.proxy.library.rcsi.ie/login?url=$@"
-  },
-  {
     "name": "Royal College of Surgeons in Ireland - Medical University of Bahrain",
     "url": "https://login.ezproxy.rcsi.com/login?url=$@"
   },
@@ -3366,86 +3354,6 @@
   {
     "name": "Rutgers University",
     "url": "https://proxy.libraries.rutgers.edu/login?url=$@"
-  },
-  {
-    "name": "Salus University",
-    "url": "http://salus.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "SHIRP (University of Saskatchewan)",
-    "url": "http://www.shirp.ca/doproxy?url=$@"
-  },
-  {
-    "name": "SNDL Systeme National de Documentation en Ligne",
-    "url": "http://www.sndl1.arn.dz/login?url=$@"
-  },
-  {
-    "name": "SUNY Buffalo State",
-    "url": "http://proxy.buffalostate.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY Cobleskill",
-    "url": "http://ezproxy.cobleskill.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY Cortland",
-    "url": "http://libproxy.cortland.edu/login?url=$@"
-  },
-  {
-    "name": "SUNY Downstate",
-    "url": "http://newproxy.downstate.edu/login?url=$@"
-  },
-  {
-    "name": "SUNY Dutchess",
-    "url": "http://is-ezproxy01.sunydutchess.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY Empire State",
-    "url": "http://library.esc.edu/login?url=$@"
-  },
-  {
-    "name": "SUNY Environmental Science and Forestry",
-    "url": "https://esf.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "SUNY Farmingdale State",
-    "url": "http://hs1.farmingdale.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY Jefferson",
-    "url": "http://jccweb.sunyjefferson.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY New Paltz",
-    "url": "https://libdatabase.newpaltz.edu/login?url=$@"
-  },
-  {
-    "name": "SUNY Onondaga",
-    "url": "http://ezproxy.sunyocc.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY Polytechnic Institute",
-    "url": "http://ezproxy.sunyit.edu/login?url=$@"
-  },
-  {
-    "name": "SUNY Rockland",
-    "url": "http://ezproxy.sunyrockland.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY Schenectady County",
-    "url": "http://libproxy.sunysccc.edu/login?url=$@"
-  },
-  {
-    "name": "SUNY University at Albany",
-    "url": "https://libproxy.albany.edu/login?url=$@"
-  },
-  {
-    "name": "SUNY at Geneseo",
-    "url": "http://proxy.geneseo.edu:2048/login?url=$@"
-  },
-  {
-    "name": "SUNY at Oswego",
-    "url": "http://ezproxy.oswego.edu:2048/login?url=$@"
   },
   {
     "name": "Saint Louis",
@@ -3480,6 +3388,10 @@
     "url": "https://salford.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "Salus University",
+    "url": "http://salus.idm.oclc.org/login?url=$@"
+  },
+  {
     "name": "Sam Houston State University",
     "url": "http://login.ezproxy.shsu.edu/login?url=$@"
   },
@@ -3494,10 +3406,6 @@
   {
     "name": "San Francisco State",
     "url": "http://jpllnet.sfsu.edu/login?url=$@"
-  },
-  {
-    "name": "San Jose City College",
-    "url": "https://login.sjccezproxy.sjcc.edu/login?url=$@"
   },
   {
     "name": "San Jose State University",
@@ -3532,10 +3440,6 @@
     "url": "http://ezproxy.scottsdalecc.edu:2048/login?url=$@"
   },
   {
-    "name": "Seattle University",
-    "url": "http://proxy.seattleu.edu/login?url=$@"
-  },
-  {
     "name": "Seattle Pacific University",
     "url": "http://ezproxy.spu.edu/login?url=$@"
   },
@@ -3544,16 +3448,20 @@
     "url": "https://ezproxy.spl.org/login?url=$@"
   },
   {
+    "name": "Seattle University",
+    "url": "http://proxy.seattleu.edu/login?url=$@"
+  },
+  {
     "name": "Seneca",
     "url": "http://lcweb.senecac.on.ca:2048/login?url=$@"
   },
   {
     "name": "Seoul National University",
-    "url": "https://lib.snu.ac.kr/user/login?proxyurl=$@"
+    "url": "https://ezproxy.snu.ac.kr/login?url=$@"
   },
   {
     "name": "Seoul National University",
-    "url": "https://ezproxy.snu.ac.kr/login?url=$@"
+    "url": "https://lib.snu.ac.kr/user/login?proxyurl=$@"
   },
   {
     "name": "Seton Hall University",
@@ -3588,6 +3496,10 @@
     "url": "http://proxy-ship.klnpa.org/login?url=$@"
   },
   {
+    "name": "SHIRP (University of Saskatchewan)",
+    "url": "http://www.shirp.ca/doproxy?url=$@"
+  },
+  {
     "name": "Siberian Federal University",
     "url": "https://libproxy.bik.sfu-kras.ru/login?url=$@"
   },
@@ -3620,6 +3532,10 @@
     "url": "http://libproxy.smith.edu:2048/login?url=$@"
   },
   {
+    "name": "SNDL Systeme National de Documentation en Ligne",
+    "url": "http://www.sndl1.arn.dz/login?url=$@"
+  },
+  {
     "name": "Sofia",
     "url": "http://ezproxy.sofia.edu:2048/login?url=$@"
   },
@@ -3644,12 +3560,16 @@
     "url": "http://ezproxy.sothebysinstitute.com:2048/login?url=$@"
   },
   {
-    "name": "South College",
-    "url": "http://proxy.southcollegetn.edu:2048/login?url=$@"
+    "name": "South and East Metropolitan Health Service",
+    "url": "https://login.smhslibresources.health.wa.gov.au/login?url=$@"
   },
   {
     "name": "South Asian University (SAU)",
     "url": "https://sau.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "South College",
+    "url": "http://proxy.southcollegetn.edu:2048/login?url=$@"
   },
   {
     "name": "South Dakota State University",
@@ -3662,10 +3582,6 @@
   {
     "name": "South Texas",
     "url": "http://ezproxy.southtexascollege.edu:2048/login?url=$@"
-  },
-  {
-    "name": "South and East Metropolitan Health Service",
-    "url": "https://login.smhslibresources.health.wa.gov.au/login?url=$@"
   },
   {
     "name": "Southern College of Optometry",
@@ -3756,12 +3672,12 @@
     "url": "https://stanford.idm.oclc.org/login?url=$@"
   },
   {
-    "name": "State Library of Pennsylvania",
-    "url": "http://proxy-stlib.klnpa.org/login?url=$@"
-  },
-  {
     "name": "State and University Library, Aarhus",
     "url": "http://ez.statsbiblioteket.dk:2048/login?url=$@"
+  },
+  {
+    "name": "State Library of Pennsylvania",
+    "url": "http://proxy-stlib.klnpa.org/login?url=$@"
   },
   {
     "name": "Stellenbosch University",
@@ -3818,6 +3734,78 @@
   {
     "name": "Sunway University",
     "url": "http://ezproxy.sunway.edu.my/login?url=$@"
+  },
+  {
+    "name": "SUNY at Geneseo",
+    "url": "http://proxy.geneseo.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY at Oswego",
+    "url": "http://ezproxy.oswego.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Buffalo State",
+    "url": "http://proxy.buffalostate.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Cobleskill",
+    "url": "http://ezproxy.cobleskill.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Corning Community College",
+    "url": "http://ezproxy.corning-cc.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Cortland",
+    "url": "http://libproxy.cortland.edu/login?url=$@"
+  },
+  {
+    "name": "SUNY Downstate",
+    "url": "http://newproxy.downstate.edu/login?url=$@"
+  },
+  {
+    "name": "SUNY Dutchess",
+    "url": "http://is-ezproxy01.sunydutchess.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Empire State",
+    "url": "http://library.esc.edu/login?url=$@"
+  },
+  {
+    "name": "SUNY Environmental Science and Forestry",
+    "url": "https://esf.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "SUNY Farmingdale State",
+    "url": "http://hs1.farmingdale.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Jefferson",
+    "url": "http://jccweb.sunyjefferson.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY New Paltz",
+    "url": "https://libdatabase.newpaltz.edu/login?url=$@"
+  },
+  {
+    "name": "SUNY Onondaga",
+    "url": "http://ezproxy.sunyocc.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Polytechnic Institute",
+    "url": "http://ezproxy.sunyit.edu/login?url=$@"
+  },
+  {
+    "name": "SUNY Rockland",
+    "url": "http://ezproxy.sunyrockland.edu:2048/login?url=$@"
+  },
+  {
+    "name": "SUNY Schenectady County",
+    "url": "http://libproxy.sunysccc.edu/login?url=$@"
+  },
+  {
+    "name": "SUNY University at Albany",
+    "url": "https://libproxy.albany.edu/login?url=$@"
   },
   {
     "name": "Swarthmore",
@@ -3948,8 +3936,8 @@
     "url": "https://ezproxy.tulibs.net/login?url=$@"
   },
   {
-    "name": "Air University",
-    "url": "http://aufric.idm.oclc.org/login?url=$@"
+    "name": "The American College of Greece",
+    "url": "https://acg.idm.oclc.org/login?url=$@"
   },
   {
     "name": "The Chinese University of Hong Kong",
@@ -3972,6 +3960,10 @@
     "url": "https://ezproxy.lb.polyu.edu.hk/login?url=$@"
   },
   {
+    "name": "The Jackson Laboratory",
+    "url": "http://ezproxy.jax.org/login?url=$@"
+  },
+  {
     "name": "The Jackson Laboratory for Genomic Medicine",
     "url": "https://login.ezproxy.jax.org/login?url=$@"
   },
@@ -3982,6 +3974,10 @@
   {
     "name": "The New School",
     "url": "http://libproxy.newschool.edu/login?url=$@"
+  },
+  {
+    "name": "The Royal College of Surgeons in Ireland",
+    "url": "https://login.proxy.library.rcsi.ie/login?url=$@"
   },
   {
     "name": "The University at Buffalo",
@@ -4009,19 +4005,19 @@
   },
   {
     "name": "Trent University",
-    "url": "http://cat1.lib.trentu.ca:2048/login?url=$@"
-  },
-  {
-    "name": "Trent University",
     "url": "http://web2.trentu.ca:2048/login?url=$@"
   },
   {
-    "name": "Trinity University",
-    "url": "http://libproxy.trinity.edu/login?url=$@"
+    "name": "Trent University",
+    "url": "http://cat1.lib.trentu.ca:2048/login?url=$@"
   },
   {
     "name": "Trinity College Dublin, Ireland",
     "url": "http://elib.tcd.ie/login?url=$@"
+  },
+  {
+    "name": "Trinity University",
+    "url": "http://libproxy.trinity.edu/login?url=$@"
   },
   {
     "name": "Tufts University",
@@ -4068,20 +4064,12 @@
     "url": "https://proxy.cc.uic.edu/login?url=$@"
   },
   {
-    "name": "UNED",
-    "url": "http://ezproxy.uned.es/login?url=$@"
-  },
-  {
-    "name": "UT Health Center San Antonio",
-    "url": "http://libproxy.uthscsa.edu/login?url=$@"
-  },
-  {
-    "name": "UTCC",
-    "url": "https://login.ezproxy.utcc.ac.th/login?url=$@"
-  },
-  {
     "name": "Umea University",
     "url": "http://proxy.ub.umu.se/login?url=$@"
+  },
+  {
+    "name": "UNED",
+    "url": "http://ezproxy.uned.es/login?url=$@"
   },
   {
     "name": "Uni Heidelberg",
@@ -4112,10 +4100,6 @@
     "url": "http://lib-ezproxy.unog.ch/login?url=$@"
   },
   {
-    "name": "University of New Mexico",
-    "url": "http://libproxy.unm.edu/login?url=$@"
-  },
-  {
     "name": "Universal College of Learning",
     "url": "http://ezproxy.ucol.ac.nz/login?url=$@"
   },
@@ -4130,10 +4114,6 @@
   {
     "name": "Universidad Autónoma Metropolitana",
     "url": "https://bidi.uam.mx:2048/login?url=$@"
-  },
-  {
-    "name": "Universidad Nacional Autónoma de México",
-    "url": "http://pbidi.unam.mx:8080/login?url=$@"
   },
   {
     "name": "Universidad Carlos III de Madrid",
@@ -4152,6 +4132,42 @@
     "url": "http://bbibliograficas.ucc.edu.co/login?url=$@"
   },
   {
+    "name": "Universidad de Chile",
+    "url": "https://uchile.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "Universidad de Concepción",
+    "url": "http://ezproxy.udec.cl/login?url=$@"
+  },
+  {
+    "name": "Universidad de Costa Rica",
+    "url": "http://ezproxy.sibdi.ucr.ac.cr:2048/login?url=$@"
+  },
+  {
+    "name": "Universidad de Guadalajara",
+    "url": "https://login.wdg.biblio.udg.mx:8443/login?url=$@"
+  },
+  {
+    "name": "Universidad de Lleida",
+    "url": "http://proxy.alumnes.udl.cat:8080/log=$@"
+  },
+  {
+    "name": "Universidad de los Andes",
+    "url": "https://login.ezproxy.uniandes.edu.co:8443/login?url=$@"
+  },
+  {
+    "name": "Universidad de Navarra",
+    "url": "http://ezproxy.unav.es:2048/login?url=$@"
+  },
+  {
+    "name": "Universidad de Oviedo",
+    "url": "http://uniovi.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "Universidad del Valle",
+    "url": "http://bd.univalle.edu.co/login?url=$@"
+  },
+  {
     "name": "Universidad EAFIT",
     "url": "http://ezproxy.eafit.edu.co/login?url=$@"
   },
@@ -4162,6 +4178,10 @@
   {
     "name": "Universidad Interamericana de Puerto Rico Recinto de Arecibo",
     "url": "http://ezproxy.arecibo.inter.edu:2048/login?url=$@"
+  },
+  {
+    "name": "Universidad Nacional Autónoma de México",
+    "url": "http://pbidi.unam.mx:8080/login?url=$@"
   },
   {
     "name": "Universidad Nacional Autónoma de México Campus Morelos",
@@ -4176,44 +4196,8 @@
     "url": "http://ezproxy.unvm.edu.ar/login?url=$@"
   },
   {
-    "name": "Universidad de Chile",
-    "url": "https://uchile.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "Universidad de Concepción",
-    "url": "http://ezproxy.udec.cl/login?url=$@"
-  },
-  {
-    "name": "Universidad de Costa Rica",
-    "url": "http://ezproxy.sibdi.ucr.ac.cr:2048/login?url=$@"
-  },
-  {
-    "name": "Universidad de Lleida",
-    "url": "http://proxy.alumnes.udl.cat:8080/log=$@"
-  },
-  {
-    "name": "Universidad de Navarra",
-    "url": "http://ezproxy.unav.es:2048/login?url=$@"
-  },
-  {
-    "name": "Universidad de Oviedo",
-    "url": "http://uniovi.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "Universidad de los Andes",
-    "url": "https://login.ezproxy.uniandes.edu.co:8443/login?url=$@"
-  },
-  {
-    "name": "Universidad del Valle",
-    "url": "http://bd.univalle.edu.co/login?url=$@"
-  },
-  {
-    "name": "Universidade Federal do Rio Grande do Sul",
-    "url": "https://http://Ez45.periodicos.capes.gov.br/login?=$@"
-  },
-  {
-    "name": "Universidade Federal do Rio de Janeiro (UFRJ)",
-    "url": "http://ez29.periodicos.capes.gov.br/login?url=$@"
+    "name": "Universidad Técnica Federico Santa María (UTFSM)",
+    "url": "https://login.usm.idm.oclc.org/login?url=$@"
   },
   {
     "name": "Universidade da Coruña (UdC)",
@@ -4224,12 +4208,16 @@
     "url": "https://ezbusc.usc.gal/login?url=$@"
   },
   {
-    "name": "Universidad Técnica Federico Santa María (UTFSM)",
-    "url": "https://login.usm.idm.oclc.org/login?url=$@"
+    "name": "Universidade Federal do Rio de Janeiro (UFRJ)",
+    "url": "http://ez29.periodicos.capes.gov.br/login?url=$@"
   },
   {
-    "name": "Universita degli Studi G dAnnunzio Chieti",
-    "url": "http://biblioproxy.unich.it/login?url=$@"
+    "name": "Universidade Federal do Rio Grande do Sul",
+    "url": "https://http://Ez45.periodicos.capes.gov.br/login?=$@"
+  },
+  {
+    "name": "Universita degli studi di Milano",
+    "url": "http://ezproxy.pros.lib.unimi.it/login?url=$@"
   },
   {
     "name": "Universita degli Studi di Sassari",
@@ -4244,8 +4232,8 @@
     "url": "http://ezp.biblio.unitn.it/login?url=$@"
   },
   {
-    "name": "Universita degli studi di Milano",
-    "url": "http://ezproxy.pros.lib.unimi.it/login?url=$@"
+    "name": "Universita degli Studi G dAnnunzio Chieti",
+    "url": "http://biblioproxy.unich.it/login?url=$@"
   },
   {
     "name": "Universitas Indonesia",
@@ -4264,26 +4252,6 @@
     "url": "http://am.e-nformation.ro/login?url=$@"
   },
   {
-    "name": "Universite Lille 2",
-    "url": "http://doc-distant.univ-lille2.fr/login?url=$@"
-  },
-  {
-    "name": "Universite Ouest Nanterre La Defense",
-    "url": "http://faraway.u-paris10.fr/login?url=$@"
-  },
-  {
-    "name": "Universite Paris 1 Pantheon-Sorbonne",
-    "url": "http://ezproxy.univ-paris1.fr/login?url=$@"
-  },
-  {
-    "name": "Universite Paris Diderot",
-    "url": "http://rproxy.sc.univ-paris-diderot.fr:80/login?url=$@"
-  },
-  {
-    "name": "Universite Rennes 2",
-    "url": "http://distant.bu.univ-rennes2.fr/login?url=$@"
-  },
-  {
     "name": "Universite catholique de Louvain",
     "url": "http://proxy.bib.ucl.ac.be:888/login?url=$@"
   },
@@ -4294,6 +4262,10 @@
   {
     "name": "Universite de Bourgogne",
     "url": "http://proxy-scd.u-bourgogne.fr/login?url=$@"
+  },
+  {
+    "name": "Universite de la Reunion",
+    "url": "http://elgebar.univ-reunion.fr/login?url=$@"
   },
   {
     "name": "Universite de Lille 1",
@@ -4316,10 +4288,6 @@
     "url": "http://proxy.unice.fr/login?url=$@"
   },
   {
-    "name": "Universite de la Reunion",
-    "url": "http://elgebar.univ-reunion.fr/login?url=$@"
-  },
-  {
     "name": "Universite de technologie de Troyes",
     "url": "http://proxy.utt.fr/login?url=$@"
   },
@@ -4330,6 +4298,26 @@
   {
     "name": "Universite du Quebec a Montreal",
     "url": "http://proxy.bibliotheques.uqam.ca:2048/login?url=$@"
+  },
+  {
+    "name": "Universite Lille 2",
+    "url": "http://doc-distant.univ-lille2.fr/login?url=$@"
+  },
+  {
+    "name": "Universite Ouest Nanterre La Defense",
+    "url": "http://faraway.u-paris10.fr/login?url=$@"
+  },
+  {
+    "name": "Universite Paris 1 Pantheon-Sorbonne",
+    "url": "http://ezproxy.univ-paris1.fr/login?url=$@"
+  },
+  {
+    "name": "Universite Paris Diderot",
+    "url": "http://rproxy.sc.univ-paris-diderot.fr:80/login?url=$@"
+  },
+  {
+    "name": "Universite Rennes 2",
+    "url": "http://distant.bu.univ-rennes2.fr/login?url=$@"
   },
   {
     "name": "Universiteit Hasselt",
@@ -4380,6 +4368,10 @@
     "url": "https://libezp.utar.edu.my/login?url=$@"
   },
   {
+    "name": "University at Albany, State University of New York (SUNY)",
+    "url": "https://libproxy.albany.edu/login?url=$@"
+  },
+  {
     "name": "University College Cork",
     "url": "http://ucc.idm.oclc.org/login?url=$@"
   },
@@ -4388,28 +4380,12 @@
     "url": "https://libproxy.ucl.ac.uk/login?url=$@"
   },
   {
-    "name": "University Giessen",
-    "url": "https://ezproxy.uni-giessen.de/login?url=$@"
-  },
-  {
-    "name": "University Rennes 1",
-    "url": "http://passerelle.univ-rennes1.fr/login?url=$@"
-  },
-  {
-    "name": "University Teknologi Malaysia",
-    "url": "http://ezproxy.psz.utm.my/login?url=$@"
-  },
-  {
-    "name": "University West",
-    "url": "http://ezproxy.server.hv.se/login?url=$@"
-  },
-  {
-    "name": "University at Albany, State University of New York (SUNY)",
-    "url": "https://libproxy.albany.edu/login?url=$@"
-  },
-  {
     "name": "University for the Creative Arts",
     "url": "https://ucreative.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "University Giessen",
+    "url": "https://ezproxy.uni-giessen.de/login?url=$@"
   },
   {
     "name": "University of Adelaide",
@@ -4628,10 +4604,6 @@
     "url": "https://login.proxy-ub.rug.nl/login?url=$@"
   },
   {
-    "name": "Universidad de Guadalajara",
-    "url": "https://login.wdg.biblio.udg.mx:8443/login?url=$@"
-  },
-  {
     "name": "University of Guelph",
     "url": "http://subzero.lib.uoguelph.ca/login?url=$@"
   },
@@ -4668,16 +4640,16 @@
     "url": "http://ida.lib.uidaho.edu:2048/login?url=$@"
   },
   {
-    "name": "University of Illinois Springfield",
-    "url": "http://login.ezproxy.uis.edu/login?url=$@"
-  },
-  {
     "name": "University of Illinois at Chicago",
     "url": "http://proxy.cc.uic.edu/login?url=$@"
   },
   {
     "name": "University of Illinois at Urbana-Champaign",
     "url": "https://proxy2.library.illinois.edu/login?url=$@"
+  },
+  {
+    "name": "University of Illinois Springfield",
+    "url": "http://login.ezproxy.uis.edu/login?url=$@"
   },
   {
     "name": "University of Indiaia",
@@ -4892,6 +4864,10 @@
     "url": "http://unh-proxy.newhaven.edu:2048/login?url=$@"
   },
   {
+    "name": "University of New Mexico",
+    "url": "http://libproxy.unm.edu/login?url=$@"
+  },
+  {
     "name": "University of New Orleans",
     "url": "http://ezproxy.uno.edu/login?url=$@"
   },
@@ -4916,10 +4892,6 @@
     "url": "https://ezproxy.una.edu/login?url=$@"
   },
   {
-    "name": "University of North Carolina Wilmington",
-    "url": "http://liblink.uncw.edu/login?url=$@"
-  },
-  {
     "name": "University of North Carolina at Chapel Hill",
     "url": "http://libproxy.lib.unc.edu/login?url=$@"
   },
@@ -4930,6 +4902,10 @@
   {
     "name": "University of North Carolina at Greensboro",
     "url": "http://login.libproxy.uncg.edu/login?url=$@"
+  },
+  {
+    "name": "University of North Carolina Wilmington",
+    "url": "http://liblink.uncw.edu/login?url=$@"
   },
   {
     "name": "University of North Dakota",
@@ -5085,11 +5061,11 @@
   },
   {
     "name": "University of South Australia",
-    "url": "https://login.ezlibproxy.unisa.edu.au/login?url=$@"
+    "url": "https://access.library.unisa.edu.au/login?url=$@"
   },
   {
     "name": "University of South Australia",
-    "url": "https://access.library.unisa.edu.au/login?url=$@"
+    "url": "https://login.ezlibproxy.unisa.edu.au/login?url=$@"
   },
   {
     "name": "University of South Carolina",
@@ -5176,6 +5152,10 @@
     "url": "http://ezproxy.lib.uts.edu.au/login?url=$@"
   },
   {
+    "name": "University of Tennessee at Martin",
+    "url": "http://ezproxy.utm.edu/login?url=$@"
+  },
+  {
     "name": "University of Tennessee Chattanooga",
     "url": "http://proxy.lib.utc.edu/login?url=$@"
   },
@@ -5192,28 +5172,12 @@
     "url": "https://login.proxy.lib.utk.edu:2050/login?url=$@"
   },
   {
-    "name": "University of Tennessee at Martin",
-    "url": "http://ezproxy.utm.edu/login?url=$@"
-  },
-  {
-    "name": "University of Tennessee, Knoxville",
-    "url": "https://utk.idm.oclc.org/login?url=$@"
-  },
-  {
     "name": "University of Tennessee, Knoxville",
     "url": "https://login.proxy.lib.utk.edu/login?qurl=$@"
   },
   {
-    "name": "University of Texas Medical Branch",
-    "url": "http://libux.utmb.edu/login?url=$@"
-  },
-  {
-    "name": "University of Texas Pan American",
-    "url": "http://ezhost.panam.edu:2048/login?url=$@"
-  },
-  {
-    "name": "University of Texas Rio Grande Valley",
-    "url": "http://ezhost.utrgv.edu:2048/login?url=$@"
+    "name": "University of Tennessee, Knoxville",
+    "url": "https://utk.idm.oclc.org/login?url=$@"
   },
   {
     "name": "University of Texas at Austin",
@@ -5236,8 +5200,52 @@
     "url": "http://ezproxy.uttyler.edu:2048/login?url=$@"
   },
   {
+    "name": "University of Texas Medical Branch",
+    "url": "http://libux.utmb.edu/login?url=$@"
+  },
+  {
+    "name": "University of Texas Pan American",
+    "url": "http://ezhost.panam.edu:2048/login?url=$@"
+  },
+  {
+    "name": "University of Texas Rio Grande Valley",
+    "url": "http://ezhost.utrgv.edu:2048/login?url=$@"
+  },
+  {
+    "name": "University of the Cumberlands",
+    "url": "http://uc2.ucumberlands.edu:2048/login?url=$@"
+  },
+  {
+    "name": "University of the Fraser Valley",
+    "url": "http://proxy.ufv.ca:2048/login?url=$@"
+  },
+  {
+    "name": "University of the Incarnate Word",
+    "url": "https://uiwtx.idm.oclc.org/login?url=$@"
+  },
+  {
+    "name": "University of the Pacific",
+    "url": "http://ezproxy.pacific.edu/login?url=$@"
+  },
+  {
+    "name": "University of the Philippines College of Engineering",
+    "url": "http://ezproxy.engglib.upd.edu.ph/login?url=$@"
+  },
+  {
+    "name": "University of the West Indies at Mona",
+    "url": "http://rproxy.uwimona.edu.jm/login?url=$@"
+  },
+  {
+    "name": "University of the West of England",
+    "url": "http://ezproxy.uwe.ac.uk/login?url=$@"
+  },
+  {
+    "name": "University of the Witwatersrand",
+    "url": "https://innopac.wits.ac.za/validate?url=$@"
+  },
+  {
     "name": "University of Tokyo (UTOKYO)",
-    "url": "https://utokyo.idm.oclc.org/login?url=$@"
+    "url": "https://login.ezoris.lib.u-tokyo.ac.jp/login?url=$@"
   },
   {
     "name": "University of Toronto",
@@ -5388,36 +5396,16 @@
     "url": "http://roble.unizar.es:9090/login?url=$@"
   },
   {
-    "name": "University of the Cumberlands",
-    "url": "http://uc2.ucumberlands.edu:2048/login?url=$@"
+    "name": "University Rennes 1",
+    "url": "http://passerelle.univ-rennes1.fr/login?url=$@"
   },
   {
-    "name": "University of the Fraser Valley",
-    "url": "http://proxy.ufv.ca:2048/login?url=$@"
+    "name": "University Teknologi Malaysia",
+    "url": "http://ezproxy.psz.utm.my/login?url=$@"
   },
   {
-    "name": "University of the Incarnate Word",
-    "url": "https://uiwtx.idm.oclc.org/login?url=$@"
-  },
-  {
-    "name": "University of the Pacific",
-    "url": "http://ezproxy.pacific.edu/login?url=$@"
-  },
-  {
-    "name": "University of the Philippines College of Engineering",
-    "url": "http://ezproxy.engglib.upd.edu.ph/login?url=$@"
-  },
-  {
-    "name": "University of the West Indies at Mona",
-    "url": "http://rproxy.uwimona.edu.jm/login?url=$@"
-  },
-  {
-    "name": "University of the West of England",
-    "url": "http://ezproxy.uwe.ac.uk/login?url=$@"
-  },
-  {
-    "name": "University of the Witwatersrand",
-    "url": "https://innopac.wits.ac.za/validate?url=$@"
+    "name": "University West",
+    "url": "http://ezproxy.server.hv.se/login?url=$@"
   },
   {
     "name": "Università degli Studi dell'Aquila",
@@ -5456,52 +5444,8 @@
     "url": "https://www.ezproxy.uca.fr/login?url=$@"
   },
   {
-    "name": "Université Grenoble Alpes",
-    "url": "https://login.sid2nomade-1.grenet.fr/login?url=$@"
-  },
-  {
-    "name": "Université Laval",
-    "url": "http://acces.bibl.ulaval.ca/login?url=$@"
-  },
-  {
-    "name": "Université Libre de Bruxelles",
-    "url": "https://ezproxy.ulb.ac.be/login?url=$@"
-  },
-  {
-    "name": "Université Libre de Bruxelles (ULB)",
-    "url": "https://www.ezproxy.ulb.ac.be/login?url=$@"
-  },
-  {
-    "name": "Université Lille 1",
-    "url": "http://buproxy.univ-lille1.fr/login?url=$@"
-  },
-  {
-    "name": "Université Paris 6 et 7 - Mathématiques Informatique Recherche",
-    "url": "http://ezproxy.math-info-paris.cnrs.fr/login?url=$@"
-  },
-  {
-    "name": "Université Pierre et Marie Curie - Paris 6",
-    "url": "http://accesdistant.upmc.fr/login?url=$@"
-  },
-  {
-    "name": "Université Polytechnique Hauts-de-France",
-    "url": "https://login.ezproxy.uphf.fr/login?url=$@"
-  },
-  {
-    "name": "Université Saint Jospeh Beirut",
-    "url": "https://ezproxy.usj.edu.lb/login?url=$@"
-  },
-  {
-    "name": "Université Toulouse II Jean Jaurès",
-    "url": "https://gorgone.univ-toulouse.fr/login?url=$@"
-  },
-  {
     "name": "Université d'Artois",
     "url": "http://ezproxy.univ-artois.fr/login?url=$@"
-  },
-  {
-    "name": "Université Paris-Saclay",
-    "url": "http://ezproxy.universite-paris-saclay.fr/login?url=$@"
   },
   {
     "name": "Université de Bordeaux",
@@ -5532,12 +5476,56 @@
     "url": "https://scd-rproxy.u-strasbg.fr/login?url=$@"
   },
   {
+    "name": "Université Grenoble Alpes",
+    "url": "https://login.sid2nomade-1.grenet.fr/login?url=$@"
+  },
+  {
     "name": "Université Gustave Eiffel (GHU-Paris)",
     "url": "https://univ-eiffel.idm.oclc.org/login?url=$@"
   },
   {
+    "name": "Université Laval",
+    "url": "http://acces.bibl.ulaval.ca/login?url=$@"
+  },
+  {
+    "name": "Université Libre de Bruxelles",
+    "url": "https://ezproxy.ulb.ac.be/login?url=$@"
+  },
+  {
+    "name": "Université Libre de Bruxelles (ULB)",
+    "url": "https://www.ezproxy.ulb.ac.be/login?url=$@"
+  },
+  {
+    "name": "Université Lille 1",
+    "url": "http://buproxy.univ-lille1.fr/login?url=$@"
+  },
+  {
+    "name": "Université Paris 6 et 7 - Mathématiques Informatique Recherche",
+    "url": "http://ezproxy.math-info-paris.cnrs.fr/login?url=$@"
+  },
+  {
     "name": "Université Paris Cité",
     "url": "https://ezproxy.u-paris.fr/login?url=$@"
+  },
+  {
+    "name": "Université Paris-Saclay",
+    "url": "http://ezproxy.universite-paris-saclay.fr/login?url=$@"
+  },
+  {
+    "name": "Université Pierre et Marie Curie - Paris 6",
+    "url": "http://accesdistant.upmc.fr/login?url=$@"
+  },
+  {
+    "name": "Université Polytechnique Hauts-de-France",
+    "url": "https://login.ezproxy.uphf.fr/login?url=$@"
+  },
+  {
+    "name": "Université Saint Jospeh Beirut",
+    "url": "https://ezproxy.usj.edu.lb/login?url=$@"
+  },
+  {
+    "name": "Université Toulouse II Jean Jaurès",
+    "url": "https://gorgone.univ-toulouse.fr/login?url=$@"
   },
   {
     "name": "Univerza v Ljubljani",
@@ -5560,6 +5548,10 @@
     "url": "https://ezproxy.urfu.ru/login?url=$@"
   },
   {
+    "name": "UT Health Center San Antonio",
+    "url": "http://libproxy.uthscsa.edu/login?url=$@"
+  },
+  {
     "name": "Utah State University",
     "url": "http://dist.lib.usu.edu/login?url=$@"
   },
@@ -5568,16 +5560,16 @@
     "url": "https://ezproxy.uvu.edu/login?qurl=$@"
   },
   {
+    "name": "UTCC",
+    "url": "https://login.ezproxy.utcc.ac.th/login?url=$@"
+  },
+  {
     "name": "Utica",
     "url": "https://ezproxy.utica.edu/login?url=$@"
   },
   {
     "name": "Utrecht University",
     "url": "https://login.proxy.library.uu.nl/login?url=$@"
-  },
-  {
-    "name": "VID vitenskapelige høgskole",
-    "url": "https://ezproxy.vid.no/login?url=$@"
   },
   {
     "name": "Valley City State",
@@ -5618,6 +5610,10 @@
   {
     "name": "Victoria University | Melbourne Australia",
     "url": "http://wallaby.vu.edu.au:2048/login?url=$@"
+  },
+  {
+    "name": "VID vitenskapelige høgskole",
+    "url": "https://ezproxy.vid.no/login?url=$@"
   },
   {
     "name": "Vienna University Library",
@@ -5680,12 +5676,12 @@
     "url": "https://ntserver1.wsulibs.wsu.edu:6443/login?url=$@"
   },
   {
-    "name": "Washington University School of Medicine",
-    "url": "https://beckerproxy.wustl.edu/login?url=$@"
-  },
-  {
     "name": "Washington University in St. Louis",
     "url": "http://libproxy.wustl.edu/login?url=$@"
+  },
+  {
+    "name": "Washington University School of Medicine",
+    "url": "https://beckerproxy.wustl.edu/login?url=$@"
   },
   {
     "name": "Washtenaw",
@@ -5918,10 +5914,6 @@
   {
     "name": "École des Mines d'Albi - Carmaux",
     "url": "https://gorgone.univ-toulouse.fr/login?url=$@"
-  },
-  {
-    "name": "İzmir Institute of Technology",
-    "url": "http://libezproxy.iyte.edu.tr:81/login?url=$@"
   },
   {
     "name": "台湾新光医院 (Taiwan Xinguang Hospital)",
