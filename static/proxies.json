@@ -3006,6 +3006,15 @@
     "country": "United States"
   },
   {
+    "name": "Evergreen Valley College",
+    "url": "https://login.evcezproxy.evc.edu/login?url=",
+    "location": {
+      "lng": -121.76504700699878,
+      "lat": 37.301315100042586
+    },
+    "country": "United States"
+  },
+  {
     "name": "Fachhochschule Munster",
     "url": "https://www.hb.fh-muenster.de:2443/login?url=",
     "location": {
@@ -7659,6 +7668,15 @@
     "country": "United States"
   },
   {
+    "name": "San Jose City College",
+    "url": "https://login.sjccezproxy.sjcc.edu/login?url=",
+    "location": {
+      "lng": -121.92723079518598,
+      "lat": 37.31480350267728
+    },
+    "country": "United States"
+  },
+  {
     "name": "San Jose State University",
     "url": "http://libaccess.sjlibrary.org/login?url=",
     "location": {
@@ -11791,7 +11809,7 @@
   },
   {
     "name": "University of Tokyo (UTOKYO)",
-    "url": "https://login.ezoris.lib.u-tokyo.ac.jp/login?url=",
+    "url": "https://utokyo.idm.oclc.org/login?url=",
     "location": {
       "lng": 139.761989,
       "lat": 35.7126775
