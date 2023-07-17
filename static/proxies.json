@@ -5033,7 +5033,7 @@
   },
   {
     "name": "University of Queensland",
-    "url": "http://ezproxy.library.uq.edu.au/login?url=$@"
+    "url": "https://resolver.library.uq.edu.au/openathens/redir?url=$@"
   },
   {
     "name": "University of Regina",
