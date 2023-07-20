@@ -11278,7 +11278,7 @@
   },
   {
     "name": "University of Queensland",
-    "url": "http://ezproxy.library.uq.edu.au/login?url=$@",
+    "url": "https://resolver.library.uq.edu.au/openathens/redir?url=$@",    
     "location": {
       "lng": 153.0136905,
       "lat": -27.4975028
