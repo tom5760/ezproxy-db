@@ -9991,7 +9991,7 @@
   },
   {
     "name": "University of Auckland",
-    "url": "http://ezproxy.auckland.ac.nz/login?url=$@",
+    "url": "https://login.ezproxy.auckland.ac.nz/login?qurl=$@",
     "location": {
       "lng": 174.7644881,
       "lat": -36.85088270000001
