@@ -7327,7 +7327,7 @@
   },
   {
     "name": "Reed College",
-    "url": "http://proxy.library.reed.edu/login?url=$@",
+    "url": "https://reed.idm.oclc.org/login?url=$@",
     "location": {
       "lng": -122.6308086,
       "lat": 45.4810848
