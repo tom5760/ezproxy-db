@@ -8082,6 +8082,15 @@
     "country": "United States"
   },
   {
+    "name": "Southern Connecticut State University",
+    "url": "http://scsu.idm.oclc.org/login?url=$@",
+    "location": {
+        "lng": -72.9483416,
+        "lat": 41.3317662
+    },
+    "country": "United States"
+  },
+  {
     "name": "Southern Illinois University Carbondale",
     "url": "https://proxy.lib.siu.edu/login?url=$@",
     "location": {
