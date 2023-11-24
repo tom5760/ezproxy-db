@@ -3906,6 +3906,15 @@
     "country": "United States"
   },
   {
+    "name": "International Institute for Management Development (IMD)",
+    "url": "https://login.ezproxy.imd.org/login?url=$@",
+    "location": {
+      "lat": 46.5102223,
+      "lng": 6.6181668
+    },
+    "country": "Switzerland"
+  },
+  {
     "name": "Imperial College London",
     "url": "https://login.iclibezp1.cc.ic.ac.uk/login?url=$@",
     "location": {
