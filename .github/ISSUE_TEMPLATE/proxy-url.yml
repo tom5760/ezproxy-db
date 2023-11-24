@@ -21,3 +21,10 @@ body:
       placeholder: http://www.library.drexel.edu/cgi-bin/r.cgi?url=$@
     validations:
       required: true
+
+  - id: country
+    type: input
+    attributes:
+      label: Country
+      description: The country where this institution is mainly located.
+      placeholder: Country
