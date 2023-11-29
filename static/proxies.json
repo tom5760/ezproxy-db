@@ -5103,6 +5103,15 @@
     "country": "United States"
   },
   {
+    "name": "Macau University of Science and Technology",
+    "url": "http://libezproxy.must.edu.mo/login?url=$@",
+    "location": {
+      "lng": 113.565364,
+      "lat": 22.152448
+    },
+    "country": "Macao"
+  },
+  {
     "name": "MacEwan University",
     "url": "http://ezproxy.macewan.ca/login?url=$@",
     "location": {
