@@ -10,8 +10,8 @@ software, like [EZproxy][ezproxy].  Can be used with the [Google Chrome
 Extension][chrome] or [Mozilla Firefox Extension][firefox].
 
 [ezproxy]: https://en.wikipedia.org/wiki/EZproxy
-[chrome]:  https://chrome.google.com/webstore/detail/gfhnhcbpnnnlefhobdnmhenofhfnnfhi
-[firefox]: https://addons.mozilla.org/en-US/firefox/addon/ezproxy-redirect
+[chrome]:  https://chromewebstore.google.com/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi
+[firefox]: https://addons.mozilla.org/addon/firefox-ezproxy-redirect/
 
 This database is also accessible in [JSON format][json].  Also, the code for
 the [browser extensions][github-browser] is available on GitHub.
