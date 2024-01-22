@@ -4482,6 +4482,15 @@
     "country": "Türkiye"
   },
   {
+    "name": "Koo Foundation Sun Yat-Sen Cancer Center Library",
+    "url": "https://login.autorpa.kfsyscc.org/login?qurl=$@",
+    "location": {
+      "lng": 25.12822699400751,
+      "lat": 121.47201853017124
+    },
+    "country": "Taiwan"
+  },
+  {
     "name": "Korea",
     "url": "http://library.korea.ac.kr/login?url=$@",
     "location": {
