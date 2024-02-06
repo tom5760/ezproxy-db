@@ -1656,6 +1656,15 @@
     "country": "Hong Kong"
   },
   {
+    "name": "Chulalongkorn University, Faculty of Medicine",
+    "url": "https://login.cuml1.md.chula.ac.th/login?qurl=$@",
+    "location": {
+      "lng": 100.5356797,
+      "lat": 13.7331113
+    },
+    "country": "Thailand"
+  },
+  {
     "name": "CIAP, NSW Health",
     "url": "http://acs.hcn.com.au/?acc=36422&url=$@",
     "location": {
