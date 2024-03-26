@@ -3016,7 +3016,7 @@
   },
   {
     "name": "Evergreen Valley College",
-    "url": "https://login.evcezproxy.evc.edu/login?url=$@",
+    "url": "https://login.evcezproxy.idm.oclc.org/login?url=$@",
     "location": {
       "lng": -121.76504700699878,
       "lat": 37.301315100042586
@@ -7705,7 +7705,7 @@
   },
   {
     "name": "San Jose City College",
-    "url": "https://login.sjccezproxy.sjcc.edu/login?url=$@",
+    "url": "https://login.sjccezproxy.idm.oclc.org/login?url=$@",
     "location": {
       "lng": -121.92723079518598,
       "lat": 37.31480350267728
