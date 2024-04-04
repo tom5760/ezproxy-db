@@ -666,6 +666,14 @@
     "country": "United Kingdom"
   },
   {
+    "name": "Bavarian State Library Munich",
+    "url": "http://emedia1.bsb-muenchen.de/hanapi/action?method=getHANID&id=search&url=$@",
+    "location": {
+      "lng": 11.580299,
+      "lat": 48.147493
+    }
+  },
+  {
     "name": "Baylor Health Sciences Library",
     "url": "http://bcd.tamhsc.libguides.com/proxy_login?url=$@",
     "location": {
