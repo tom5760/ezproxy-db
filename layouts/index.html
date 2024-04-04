@@ -15,7 +15,7 @@
     </tr>
   </thead>
   <tbody>
-    {{- range sort $db }}
+    {{- range sort $db "name" }}
     <tr>
       <td>{{ .name }}</td>
       <td>{{ .url }}</td>
