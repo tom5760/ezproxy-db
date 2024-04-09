@@ -3582,7 +3582,7 @@
   },
   {
     "name": "HEC Montreal",
-    "url": "http://proxy2.hec.ca/login?url=$@",
+    "url": "https://login.proxy2.hec.ca/login?url=$@",
     "location": {
       "lng": -73.6211174,
       "lat": 45.5035488
