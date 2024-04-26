@@ -1439,6 +1439,15 @@
     "country": "United States"
   },
   {
+    "name": "Cedar Crest College",
+    "url": "https://cedarcrestcollege.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": -75.5196,
+      "lat": 40.5859
+    },
+    "country": "United States"
+  },
+  {
     "name": "Cedars-Sinai Medical Center",
     "url": "http://mlprox.csmc.edu/login?url=$@",
     "location": {
