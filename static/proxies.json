@@ -1133,6 +1133,15 @@
     "country": "Brasil"
   },
   {
+    "name": "CAPES Periódicos",
+    "url": "http://novo.periodicos.capes.gov.br/?option=com_pezproxy&controller=auth&view=pezproxyauth&url=$@",
+    "location": {
+      "lng": -15.78860,
+      "lat": -47.87835
+    },
+    "country": "Brasil"
+  },
+  {
     "name": "Cal Poly Pomona",
     "url": "https://login.proxy.library.cpp.edu/login?url=$@",
     "location": {
