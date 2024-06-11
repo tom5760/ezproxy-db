@@ -1853,6 +1853,15 @@
     "country": "France"
   },
   {
+    "name": "CNRS INS2I",
+    "url": "http://ins2i.bib.cnrs.fr/login?url=$@",
+    "location": {
+      "lng": 2.2639934,
+      "lat": 48.8476037
+    },
+    "country": "France"
+  },
+  {
     "name": "CNRS INSB",
     "url": "http://insb.bib.cnrs.fr/login?url=$@",
     "location": {
