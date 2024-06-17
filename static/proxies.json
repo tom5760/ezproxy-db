@@ -3986,17 +3986,8 @@
     "country": "United States"
   },
   {
-    "name": "Indiana University of Pennsylvania",
-    "url": "http://proxy-iup.klnpa.org/login?url=$@",
-    "location": {
-      "lng": -79.1610224,
-      "lat": 40.6143979
-    },
-    "country": "United States"
-  },
-  {
-    "name": "Indiana University Purdue University Indianapolis",
-    "url": "http://proxy.ulib.iupui.edu/login?url=$@",
+    "name": "Indiana University Indianapolis",
+    "url": "https://library.indianapolis.iu.edu/cgi-bin/proxy.pl?url=$@",
     "location": {
       "lng": -86.1772798,
       "lat": 39.7749927
@@ -4004,11 +3995,11 @@
     "country": "United States"
   },
   {
-    "name": "Indiana University School of Medicine",
-    "url": "https://proxy.medlib.iupui.edu/login?url=$@",
+    "name": "Indiana University of Pennsylvania",
+    "url": "http://proxy-iup.klnpa.org/login?url=$@",
     "location": {
-      "lng": -86.16517139999999,
-      "lat": 39.7815613
+      "lng": -79.1610224,
+      "lat": 40.6143979
     },
     "country": "United States"
   },
