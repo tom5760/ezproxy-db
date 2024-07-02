@@ -9891,7 +9891,7 @@
   },
   {
     "name": "Universiti Teknologi MARA",
-    "url": "http://ezaccess.library.uitm.edu.my/login?url=$@",
+    "url": "https://login.uitm.idm.oclc.org/login?url=$@",
     "location": {
       "lng": 101.5036823,
       "lat": 3.0697652
