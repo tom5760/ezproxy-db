@@ -8351,6 +8351,15 @@
     "country": "Denmark"
   },
   {
+    "name": "State Library of New South Wales",
+    "url": "http://ezproxy.sl.nsw.gov.au/login?url=$@",
+    "location": {
+      "lng": 151.21321,
+      "lat": -33.866385
+    },
+    "country": "Australia"
+  },
+  {
     "name": "State Library of Pennsylvania",
     "url": "http://proxy-stlib.klnpa.org/login?url=$@",
     "location": {
