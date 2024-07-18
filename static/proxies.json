@@ -10827,7 +10827,7 @@
   },
   {
     "name": "University of Massachusetts Medical School",
-    "url": "http://ezproxy.umassmed.edu/login?url=$@",
+    "url": "http://login.umassmed.idm.oclc.org/login?url=$@",
     "location": {
       "lng": -71.7633073,
       "lat": 42.2786007
