@@ -782,15 +782,6 @@
     "country": "Norway"
   },
   {
-    "name": "BiblioPl@nets - CNRS INIST",
-    "url": "http://biblioplanets.gate.inist.fr/login?url=$@",
-    "location": {
-      "lng": 6.1499824,
-      "lat": 48.65528200000001
-    },
-    "country": "France"
-  },
-  {
     "name": "Bibliothèque nationale de Luxembourg",
     "url": "http://proxy.bnl.lu/login?url=$@",
     "location": {
@@ -1864,6 +1855,15 @@
   {
     "name": "CNRS INSB",
     "url": "http://insb.bib.cnrs.fr/login?url=$@",
+    "location": {
+      "lng": 2.2639934,
+      "lat": 48.8476037
+    },
+    "country": "France"
+  },
+  {
+    "name": "CNRS INSU",
+    "url": "http://insu.bib.cnrs.fr/login?url=$@",
     "location": {
       "lng": 2.2639934,
       "lat": 48.8476037
