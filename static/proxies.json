@@ -9593,6 +9593,15 @@
     "country": "Italy"
   },
   {
+    "name": "GSSI - Gran Sasso Science Institute",
+    "url": "http://gssi.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": 13.3939007,
+      "lat": 42.3445982
+    },
+    "country": "Italy"
+  },
+  {
     "name": "Universita degli Studi di Sassari",
     "url": "http://proxysba.uniss.it:2048/login?url=$@",
     "location": {
