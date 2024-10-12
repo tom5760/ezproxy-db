@@ -6291,7 +6291,7 @@
   },
   {
     "name": "New York University (NYU)",
-    "url": "https://ezproxy.library.nyu.edu/login?url=$@",
+    "url": "https://proxy.library.nyu.edu/login?url=$@",
     "location": {
       "lng": -73.9964609,
       "lat": 40.72951339999999
