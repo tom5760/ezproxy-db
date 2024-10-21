@@ -9773,15 +9773,6 @@
     "country": "Canada"
   },
   {
-    "name": "Universite du Quebec a Montreal",
-    "url": "http://proxy.bibliotheques.uqam.ca:2048/login?url=$@",
-    "location": {
-      "lng": -73.5602937,
-      "lat": 45.5131547
-    },
-    "country": "Canada"
-  },
-  {
     "name": "Universite Lille 2",
     "url": "http://doc-distant.univ-lille2.fr/login?url=$@",
     "location": {
@@ -12384,7 +12375,7 @@
   },
   {
     "name": "Université de Québec à Montréal",
-    "url": "http://proxy.bibliotheques.uqam.ca/login?url=$@",
+    "url": "https://proxy.bibliotheques.uqam.ca/login?url=$@",
     "location": {
       "lng": -73.5602937,
       "lat": 45.5131547
