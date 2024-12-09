@@ -2123,6 +2123,15 @@
     "country": "United States"
   },
   {
+    "name": "Connecticut State Library",
+    "url": "https://login.cslib.idm.oclc.org/login?qurl=$@",
+    "location": {
+      "lng": -72.683053,
+      "lat": 41.762579
+    },
+    "country": "United States"
+  },
+  {
     "name": "Consiglio Nazionale delle Ricerche",
     "url": "https://biblioproxy.cnr.it/login?url=$@",
     "location": {
