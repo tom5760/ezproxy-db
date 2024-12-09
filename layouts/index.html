@@ -1,5 +1,5 @@
 {{ define "body" }}
-{{- $db := getJSON "static/proxies.json" }}
+{{- $db := readFile "static/proxies.json" | transform.Unmarshal }}
 
 <main>
   {{ .Content }}
