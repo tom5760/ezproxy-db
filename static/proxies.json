@@ -1187,6 +1187,15 @@
     "country": "United States"
   },
   {
+    "name": "California State Library",
+    "url": "https://castatelib.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": -121.4965077,
+      "lat": 38.5758342
+    },
+    "country": "United States"
+  },
+  {
     "name": "California Polytechnic State University",
     "url": "https://calpoly.idm.oclc.org/login?qurl=$@",
     "location": {
