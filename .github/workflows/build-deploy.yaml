@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build and Deploy
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     environment:
       name: prod
       url: https://libproxy-db.org/
@@ -22,7 +22,7 @@ jobs:
 
       - name: Install Hugo
         env:
-          HUGO_VERSION: 0.124.1
+          HUGO_VERSION: 0.139.4
         run: |
           curl \
             --silent \
@@ -68,8 +68,7 @@ jobs:
           rsync \
             --recursive \
             --verbose \
-            --rsh="ssh -l deploy-libproxy -i libproxy-db.org_deploy" \
             --copy-links \
             --delete \
             public/ \
-            100.77.83.94:/srv/http/libproxy-db.org/
+            deploy-libproxy@dev:/srv/http/libproxy-db.org/
