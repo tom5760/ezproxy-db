@@ -2987,6 +2987,15 @@
     "country": "United States"
   },
   {
+    "name": "Emporia State University",
+    "url": "https://emporiastate.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": -96.180139,
+      "lat": 38.412889
+    },
+    "country": "United States"
+  },
+  {
     "name": "ENCG Settat",
     "url": "https://www.ezproxy.uh1.ac.ma/login?url=$@",
     "location": {
