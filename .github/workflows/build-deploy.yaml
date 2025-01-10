@@ -40,7 +40,7 @@ jobs:
           hugo
 
       - name: Upload site artifact
-        uses: actions/upload-artifact@v4.5.0
+        uses: actions/upload-artifact@v4.6.0
         with:
           name: libproxy-db
           path: public
