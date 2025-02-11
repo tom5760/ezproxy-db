@@ -890,15 +890,6 @@
     "country": "United States"
   },
   {
-    "name": "Bond University",
-    "url": "http://ezproxy.bond.edu.au/login?url=$@",
-    "location": {
-      "lng": 153.4166377,
-      "lat": -28.0730934
-    },
-    "country": "Australia"
-  },
-  {
     "name": "Boston Architectural",
     "url": "http://proxy.the-bac.edu/login?url=$@",
     "location": {
