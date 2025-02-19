@@ -5309,7 +5309,7 @@
     "country": "United States"
   },
   {
-    "name": "Marshall University",
+    "name": "Marshall University (2)",
     "url": "http://ezproxy.marshall.edu:2048/login?url=$@",
     "location": {
       "lng": -82.42497995923164,
@@ -9125,7 +9125,7 @@
     "country": "Canada"
   },
   {
-    "name": "Trent University",
+    "name": "Trent University (2)",
     "url": "http://cat1.lib.trentu.ca:2048/login?url=$@",
     "location": {
       "lng": -78.29062294212818,
