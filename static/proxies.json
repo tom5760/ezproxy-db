@@ -5309,15 +5309,6 @@
     "country": "United States"
   },
   {
-    "name": "Marshall University (2)",
-    "url": "http://ezproxy.marshall.edu:2048/login?url=$@",
-    "location": {
-      "lng": -82.42497995923164,
-      "lat": 38.42435645107813
-    },
-    "country": "United States"
-  },
-  {
     "name": "Marygrove",
     "url": "http://library.marygrove.edu:2048/login?url=$@",
     "location": {
@@ -9117,19 +9108,10 @@
   },
   {
     "name": "Trent University",
-    "url": "http://web2.trentu.ca:2048/login?url=$@",
+    "url": "https://proxy1.lib.trentu.ca/login?url=$@",
     "location": {
       "lng": -78.2905232,
       "lat": 44.3576781
-    },
-    "country": "Canada"
-  },
-  {
-    "name": "Trent University (2)",
-    "url": "http://cat1.lib.trentu.ca:2048/login?url=$@",
-    "location": {
-      "lng": -78.29062294212818,
-      "lat": 44.358354457586834
     },
     "country": "Canada"
   },
