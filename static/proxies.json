@@ -671,7 +671,8 @@
     "location": {
       "lng": 11.580299,
       "lat": 48.147493
-    }
+    },
+    "country": "Germany"
   },
   {
     "name": "Baylor Health Sciences Library",
@@ -4538,8 +4539,8 @@
     "name": "Koo Foundation Sun Yat-Sen Cancer Center Library",
     "url": "https://login.autorpa.kfsyscc.org/login?qurl=$@",
     "location": {
-      "lng": 25.12822699400751,
-      "lat": 121.47201853017124
+      "lng": 121.47201853017124,
+      "lat": 25.12822699400751
     },
     "country": "Taiwan"
   },
