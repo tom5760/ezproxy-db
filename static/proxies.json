@@ -1836,6 +1836,15 @@
     "country": "United States"
   },
   {
+    "name": "CNRS IN2P3",
+    "url": "http://in2p3.bib.cnrs.fr/login?url=$@",
+    "location": {
+      "lng": 2.2639934,
+      "lat": 48.8476037
+    },
+    "country": "France"
+  },
+  {
     "name": "CNRS INEE",
     "url": "http://inee.bib.cnrs.fr/login?url=$@",
     "location": {
