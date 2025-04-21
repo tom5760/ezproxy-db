@@ -2313,6 +2313,15 @@
     "country": "United States"
   },
   {
+    "name": "CUNY Graduate Center",
+    "url": "https://ezproxy.gc.cuny.edu/login?url=$@",
+    "location": {
+      "lng": -73.9841079,
+      "lat": 40.7488206
+    },
+    "country": "United States"
+  },
+  {
     "name": "CUNY Graduate School of Journalism",
     "url": "http://journalism.ezproxy.cuny.edu:2048/login?url=$@",
     "location": {
