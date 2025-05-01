@@ -9621,6 +9621,15 @@
     "country": "Italy"
   },
   {
+    "name": "Universita degli Studi di Salerno",
+    "url": "https://unisa.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": 14.790556,
+      "lat": 40.771111
+    },
+    "country": "Italy"
+  },
+  {
     "name": "Universita degli Studi di Sassari",
     "url": "http://proxysba.uniss.it:2048/login?url=$@",
     "location": {
