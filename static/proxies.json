@@ -4140,6 +4140,15 @@
     "country": "Ireland"
   },
   {
+    "name": "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
+    "url": "https://go.openathens.net/redirector/tec.mx?url=$@",
+    "location": {
+      "lng": -100.2910202,
+      "lat": 25.65144753
+    },
+    "country": "Mexico"
+  },
+  {
     "name": "Instituto Tecnológico y de Estudios Superiores de Occidente (ITESO)",
     "url": "http://ezproxy.iteso.mx/login?url=$@",
     "location": {
