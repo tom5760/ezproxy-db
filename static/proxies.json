@@ -117,6 +117,15 @@
     "country": "United States"
   },
   {
+    "name": "Aix-Marseille Université",
+    "url": "https://lama.univ-amu.fr/login?url=$@",
+    "location": {
+      "lng": 43.293577,
+      "lat": 5.358045
+    },
+    "country": "France"
+  },
+  {
     "name": "Akademie ved Ceske republiky",
     "url": "https://ezproxy.lib.cas.cz/login?url=$@",
     "location": {
