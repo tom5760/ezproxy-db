@@ -11143,7 +11143,7 @@
   },
   {
     "name": "University of North Carolina at Chapel Hill",
-    "url": "http://libproxy.lib.unc.edu/login?url=$@",
+    "url": "https://login.libproxy.lib.unc.edu/login?url=$@",
     "location": {
       "lng": -79.0469134,
       "lat": 35.9049122
