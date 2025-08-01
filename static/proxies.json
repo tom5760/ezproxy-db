@@ -2466,6 +2466,15 @@
     "country": "Australia"
   },
   {
+    "name": "Dakota State University",
+    "url": "https://login.ezproxy.dsu.edu/login?url=$@",
+    "location": {
+      "lng": -97.11037,
+      "lat": 44.01278
+    },
+    "country": "United States"
+  },
+  {
     "name": "Dakota Wesleyan",
     "url": "https://ezproxy.dwu.edu:2048/login?url=$@",
     "location": {
