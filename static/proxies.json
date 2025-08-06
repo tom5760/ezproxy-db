@@ -5770,7 +5770,7 @@
   },
   {
     "name": "Monash University",
-    "url": "http://ezproxy.lib.monash.edu.au/login?url=$@",
+    "url": "https://go.openathens.net/redirector/www.monash.edu?url=$@",
     "location": {
       "lng": 145.1346592,
       "lat": -37.9142416
