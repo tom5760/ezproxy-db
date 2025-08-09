@@ -13471,5 +13471,23 @@
       "lat": 39.991253
     },
     "country": "China"
+  },
+  {
+    "name": "NASATI",
+    "url": "https://dbvista.idm.oclc.org/login?qurl=$@",
+    "location": {
+      "lng": 21.022808, 
+      "lat": 105.854418
+    },
+    "country": "Vietnam"
+  },
+  {
+    "name": "VNU-LIC",
+    "url": "https://db.lic.vnu.edu.vn/login?qurl=$@",
+    "location": {
+      "lng": 21.038697, 
+      "lat": 105.784078
+    },
+    "country": "Vietnam"
   }
 ]
