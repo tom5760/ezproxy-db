@@ -12627,6 +12627,15 @@
     "country": "Russia"
   },
   {
+    "name": "Ustav organicke chemie a biochemie AV CR (UOCHB)",
+    "url": "https://ezproxy.uochb.cas.cz:2443/login?url=$@",
+    "location": {
+      "lng": 14.391393,
+      "lat": 50.105704
+    },
+    "country": "Czechia"
+  },
+  {
     "name": "UT Health Center San Antonio",
     "url": "http://libproxy.uthscsa.edu/login?url=$@",
     "location": {
@@ -12832,6 +12841,15 @@
       "lat": 50.8260453
     },
     "country": "Belgium"
+  },
+  {
+    "name": "Vysoka skola chemicko-technologicka v Praze (VSCHT Praha)",
+    "url": "https://ezproxy.vscht.cz/login?url=$@",
+    "location": {
+      "lng": 14.389898,
+      "lat": 50.103373
+    },
+    "country": "Czechia"
   },
   {
     "name": "Wageningen UR",
