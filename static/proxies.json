@@ -72,6 +72,15 @@
     "country": "United States"
   },
   {
+    "name": "Advocate Health",
+    "url": "https://liblynxgateway.com/aah?url=$@",
+    "location": {
+      "lng": -87.9097,
+      "lat": 43.0410
+    },
+    "country": "United States"
+  },
+  {
     "name": "AFIT D'Azzo Research Library",
     "url": "https://login.afit.idm.oclc.org/login?url=$@",
     "location": {
