@@ -8767,7 +8767,7 @@
   },
   {
     "name": "Tampere University",
-    "url": "https:libproxy.tuni.fi/login?url=$0",
+    "url": "https://libproxy.tuni.fi/login?url=$0",
     "location": {
       "lng": 23.778056,
       "lat": 61.494167
