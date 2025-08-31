@@ -8766,6 +8766,15 @@
     "country": "Estonia"
   },
   {
+    "name": "Tampere University",
+    "url": "https:libproxy.tuni.fi/login?=url=$0",
+    "location": {
+      "lng": 23.778056,
+      "lat": 61.494167
+    },
+    "country": "Finland"
+  },
+  {
     "name": "Tarrant County",
     "url": "http://ezp.tccd.edu/login?url=$@",
     "location": {
