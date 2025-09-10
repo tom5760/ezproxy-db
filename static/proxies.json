@@ -3025,7 +3025,7 @@
   },
   {
     "name": "Emporia State University",
-    "url": "https://emporiastate.idm.oclc.org/login?url=$@",
+    "url": "https://go.openathens.net/redirector/emporia.edu?url=$@",
     "location": {
       "lng": -96.180139,
       "lat": 38.412889
@@ -7759,7 +7759,7 @@
   },
   {
     "name": "Sam Houston State University",
-    "url": "http://login.ezproxy.shsu.edu/login?url=$@",
+    "url": "https://shsu.idm.oclc.org/login?url=$@",
     "location": {
       "lng": -95.547276,
       "lat": 30.7135813
