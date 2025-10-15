@@ -22,7 +22,7 @@ jobs:
 
       - name: Install Hugo
         env:
-          HUGO_VERSION: 0.139.4
+          HUGO_VERSION: 0.151.0
         run: |
           curl \
             --silent \
