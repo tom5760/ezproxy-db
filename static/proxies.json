@@ -793,7 +793,7 @@
   },
   {
     "name": "BI Norwegian Business School",
-    "url": "http://ezproxy.library.bi.no/login?url=$@",
+    "url": "https://bi.idm.oclc.org/login?url=$@",
     "location": {
       "lng": 10.7685565,
       "lat": 59.9484015
