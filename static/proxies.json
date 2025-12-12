@@ -8199,6 +8199,15 @@
     "country": "United States"
   },
   {
+    "name": "South-Eastern Finland University of Applied Sciences",
+    "url": "https://ezproxy.xamk.fi/login?url=$@",
+    "location": {
+      "lng": 27.258,
+      "lat": 61.68
+    },
+    "country": "Finland"
+  },
+  {
     "name": "Southern College of Optometry",
     "url": "http://sco.idm.oclc.org/login?url=$@",
     "location": {
