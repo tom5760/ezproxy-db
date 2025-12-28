@@ -9612,6 +9612,15 @@
     "country": "Argentina"
   },
   {
+    "name": "Universidad Popular Autónoma del Estado de Puebla (UPAEP)",
+    "url": "https://ezproxy.upaep.mx:2054/login?url=$@",
+    "location": {
+      "lng": -98.21566558972324,
+      "lat": 19.048348069024367
+    },
+    "country": "Mexico"
+  },
+  {
     "name": "Universidad Técnica Federico Santa María (UTFSM)",
     "url": "https://login.usm.idm.oclc.org/login?url=$@",
     "location": {
