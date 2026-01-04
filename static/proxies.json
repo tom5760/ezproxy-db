@@ -5454,8 +5454,8 @@
     "country": "Germany"
   },
   {
-    "name": "Maynooth",
-    "url": "https://login.jproxy.nuim.ie/login?url=$@",
+    "name": "Maynooth University",
+    "url": "https://may.idm.oclc.org/login?url=$@",
     "location": {
       "lng": -6.5918499,
       "lat": 53.3812896
