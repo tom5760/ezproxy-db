@@ -3321,6 +3321,15 @@
     "country": "United States"
   },
   {
+    "name": "Free Library of Philadelphia",
+    "url": "https://login.freelibrary.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": -75.1710475,
+      "lat": 39.9595666
+    },
+    "country": "United States"
+  },
+  {
     "name": "Free University Bozen Bolzano",
     "url": "http://libproxy.unibz.it/login?url=$@",
     "location": {
