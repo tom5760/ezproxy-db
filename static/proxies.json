@@ -1738,7 +1738,7 @@
   },
   {
     "name": "City University of Hong Kong",
-    "url": "https://lbapp01.lib.cityu.edu.hk/ezlogin/index.aspx?url=$@",
+    "url": "http://ezproxy.cityu.edu.hk/login?url=$@",
     "location": {
       "lng": 114.17272,
       "lat": 22.3370342
