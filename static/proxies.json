@@ -2187,8 +2187,8 @@
     "country": "Denmark"
   },
   {
-    "name": "Copenhagen University - The Royal Library",
-    "url": "http://ep.fjernadgang.kb.dk/login?url=$@",
+    "name": "Copenhagen University (Royal Danish Library)",
+    "url": "https://login.kb-ku.idm.oclc.org/login?qurl=$@",
     "location": {
       "lng": 12.5826588,
       "lat": 55.6733994
