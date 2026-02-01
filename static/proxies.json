@@ -7596,6 +7596,15 @@
     "country": "United States"
   },
   {
+    "name": "Roskilde University (Royal Danish Library)",
+    "url": "https://login.kb-ruc.idm.oclc.org/login?qurl=$@",
+    "location": {
+      "lng": 12.14132,
+      "lat": 55.65433
+    },
+    "country": "Denmark"
+  },
+  {
     "name": "Rowan",
     "url": "http://ezproxy.rowan.edu/login?url=$@",
     "location": {
