@@ -7434,6 +7434,15 @@
     "country": "Australia"
   },
   {
+    "name": "Quinnipiac University",
+    "url": "http://libraryproxy.quinnipiac.edu/login?url=$@",
+    "location": {
+      "lng": -72.8936,
+      "lat": 41.4189
+    },
+    "country": "United States"
+  },
+  {
     "name": "Quinsigamond Community College",
     "url": "https://ezproxyqcc.helmlib.org/login?url=$@",
     "location": {
