@@ -10189,7 +10189,7 @@
   },
   {
     "name": "University of Auckland",
-    "url": "https://login.ezproxy.auckland.ac.nz/login?qurl=$@",
+    "url": "https://go.openathens.net/redirector/auckland.ac.nz?url=$@",
     "location": {
       "lng": 174.7644881,
       "lat": -36.85088270000001
