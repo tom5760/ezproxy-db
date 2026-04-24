@@ -6813,8 +6813,8 @@
     "country": "Canada"
   },
   {
-    "name": "Ohio",
-    "url": "http://proxy.library.ohiou.edu/login?url=$@",
+    "name": "Ohio University",
+    "url": "https://proxy2.library.ohio.edu/login?url=$@",
     "location": {
       "lng": -82.90712300000001,
       "lat": 40.4172871
