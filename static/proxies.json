@@ -10872,6 +10872,15 @@
     "country": "Canada"
   },
   {
+    "name": "University of Maribor (Univerza v Mariboru)",
+    "url": "https://eviri.lib1.ukm.um.si/login?qurl=$@",
+    "location": {
+      "lng": 46.55916,
+      "lat": 15.64335
+    },
+    "country": "Slovenia"
+  },
+  {
     "name": "University of Maryland",
     "url": "http://ezproxy.law.umaryland.edu/login?auth=Library&url=$@",
     "location": {
