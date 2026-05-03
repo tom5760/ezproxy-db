@@ -6364,7 +6364,7 @@
   },
   {
     "name": "New York University (NYU)",
-    "url": "https://proxy.library.nyu.edu/login?url=$@",
+    "url": "https://go.openathens.net/redirector/nyu.edu?url=$@",
     "location": {
       "lng": -73.9964609,
       "lat": 40.72951339999999
@@ -6710,15 +6710,6 @@
     "location": {
       "lng": -89.96083921920405,
       "lat": 29.954783117551013
-    },
-    "country": "United States"
-  },
-  {
-    "name": "NYU Alumni",
-    "url": "http://alumniproxy.library.nyu.edu/login?url=$@",
-    "location": {
-      "lng": -73.9964609,
-      "lat": 40.72951339999999
     },
     "country": "United States"
   },
