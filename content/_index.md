@@ -6,20 +6,28 @@ Database of URLs from institutions using proxy servers, like
 +++
 
 Collection of proxy URLs from various libraries and institutions using
-software, like [EZproxy][ezproxy].  Can be used with the [Google Chrome
-Extension][chrome] or [Mozilla Firefox Extension][firefox].
+software, like [EZproxy][ezproxy].
 
 [ezproxy]: https://en.wikipedia.org/wiki/EZproxy
-[chrome]:  https://chromewebstore.google.com/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi
-[firefox]: https://addons.mozilla.org/addon/firefox-ezproxy-redirect/
 
 This database is also accessible in [JSON format][json].  The
 [code for this site][github-site] and code for the
-[browser extensions][github-browser] are available on GitHub.
+[browser extensions][extension-github] are available on GitHub.
 
 [json]:           /proxies.json
 [github-site]:    https://github.com/tom5760/ezproxy-db
-[github-browser]: https://github.com/tom5760/chrome-ezproxy
+
+## Browser Extensions
+
+There are several browser extensions using this database.  Let us know if you
+want to add yours to this list!
+
+* [EZProxy Redirect][extension-github] ([Chrome][extension-chrome], [Firefox][extension-firefox]) by @tom5760
+* [ScholarKey](https://github.com/ezraiiiiiiiiiiii/ScholarKey) ([Firefox](https://addons.mozilla.org/en-GB/firefox/addon/scholarkey/) by @ezraiiiiiiiiiiii
+
+[extension-github]: https://github.com/tom5760/chrome-ezproxy
+[extension-chrome]:  https://chromewebstore.google.com/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi
+[extension-firefox]: https://addons.mozilla.org/addon/firefox-ezproxy-redirect/
 
 ## Contributing
 

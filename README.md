@@ -1,23 +1,33 @@
 Library Proxy URL Database
 ==========================
 
-* Author: Tom Wambold <tom5760@gmail.com>
-* Copyright © 2022 Tom Wambold
+* Author: Tom Wambold <tom@wambold.dev>
+* Copyright © 2026 Tom Wambold
 * URL: https://libproxy-db.org/
 
 Collection of proxy URLs from various libraries and institutions using
-software, like [EZproxy][ezproxy].  Can be used with the [Google Chrome
-Extension][chrome] or [Mozilla Firefox Extension][firefox].
+software, like [EZproxy][ezproxy].
 
 [ezproxy]: https://en.wikipedia.org/wiki/EZproxy
-[chrome]:  https://chromewebstore.google.com/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi
-[firefox]: https://addons.mozilla.org/addon/firefox-ezproxy-redirect/
 
-This database is also accessible in [JSON format][json].  Also, the code for
-the [browser extensions][github-browser] is available on GitHub.
+This database is also accessible in [JSON format][json].  The
+[code for this site][github-site] and code for the
+[browser extensions][extension-github] are available on GitHub.
 
-[json]:           https://github.com/tom5760/ezproxy-db/blob/main/static/proxies.json
-[github-browser]: https://github.com/tom5760/chrome-ezproxy
+[json]:           /proxies.json
+[github-site]:    https://github.com/tom5760/ezproxy-db
+
+## Browser Extensions
+
+There are several browser extensions using this database.  Let us know if you
+want to add yours to this list!
+
+* [EZProxy Redirect][extension-github] ([Chrome][extension-chrome], [Firefox][extension-firefox]) by @tom5760
+* [ScholarKey](https://github.com/ezraiiiiiiiiiiii/ScholarKey) ([Firefox](https://addons.mozilla.org/en-GB/firefox/addon/scholarkey/) by @ezraiiiiiiiiiiii
+
+[extension-github]: https://github.com/tom5760/chrome-ezproxy
+[extension-chrome]:  https://chromewebstore.google.com/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi
+[extension-firefox]: https://addons.mozilla.org/addon/firefox-ezproxy-redirect/
 
 ## Contributing
 
