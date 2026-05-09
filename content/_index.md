@@ -23,7 +23,7 @@ There are several browser extensions using this database.  Let us know if you
 want to add yours to this list!
 
 * [EZProxy Redirect][extension-github] ([Chrome][extension-chrome], [Firefox][extension-firefox]) by @tom5760
-* [ScholarKey](https://github.com/ezraiiiiiiiiiiii/ScholarKey) ([Firefox](https://addons.mozilla.org/en-GB/firefox/addon/scholarkey/)) by @ezraiiiiiiiiiiii
+* [ScholarKey](https://github.com/ezraiiiiiiiiiiii/ScholarKey) ([Firefox](https://addons.mozilla.org/firefox/addon/scholarkey/)) by @ezraiiiiiiiiiiii
 
 [extension-github]: https://github.com/tom5760/chrome-ezproxy
 [extension-chrome]:  https://chromewebstore.google.com/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi
