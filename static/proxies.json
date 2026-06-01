@@ -11934,6 +11934,15 @@
     "country": "United States"
   },
   {
+    "name": "University of Texas Southwestern Medical Center (UTSW)",
+    "url": "https://login.foyer.swmed.edu/login?url=$@",
+    "location": {
+      "lng": -96.84152,
+      "lat": 32.8134
+    },
+    "country": "United States"
+  },
+  {
     "name": "University of the Cumberlands",
     "url": "http://uc2.ucumberlands.edu:2048/login?url=$@",
     "location": {
