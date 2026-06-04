@@ -5418,6 +5418,15 @@
     "country": "United States"
   },
   {
+    "name": "Masaryk University",
+    "url": "https://ezproxy.muni.cz/login?url=$@",
+    "location": {
+      "lng": 16.605292,
+      "lat": 49.198575
+    },
+    "country": "Czechia"
+  },
+  {
     "name": "Massachusetts College of Liberal Arts",
     "url": "http://libproxy.mcla.edu:2048/login?url=$@",
     "location": {
