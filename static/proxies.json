@@ -4932,6 +4932,15 @@
     "country": "Netherlands"
   },
   {
+    "name": "Le Mans Université",
+    "url": "https://login.doc-elec.univ-lemans.fr/login?url=$@",
+    "location": {
+      "lng": 0.160973,
+      "lat": 48.01564
+    },
+    "country": "France"
+  },
+  {
     "name": "LeTourneau University",
     "url": "http://research-db.letu.edu/login?url=$@",
     "location": {
