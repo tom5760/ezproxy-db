@@ -1908,6 +1908,15 @@
     "country": "United States"
   },
   {
+    "name": "Coastline Community College",
+    "url": "https://coastline.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": -117.9294,
+      "lat": 33.7156
+    },
+    "country": "United States"
+  },
+  {
     "name": "Colby",
     "url": "https://colby.idm.oclc.org/login?url=$@",
     "location": {
