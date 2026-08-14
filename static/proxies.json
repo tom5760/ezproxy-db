@@ -3492,6 +3492,15 @@
     "country": "Germany"
   },
   {
+    "name": "Golden West College",
+    "url": "https://gwc.idm.oclc.org/login?url=$@",
+    "location": {
+      "lng": -118.0032,
+      "lat": 33.7340
+    },
+    "country": "United States"
+  },
+  {
     "name": "Gordon-Conwell Theological Seminary",
     "url": "http://proxy.gordonconwell.edu/login?url=$@",
     "location": {
